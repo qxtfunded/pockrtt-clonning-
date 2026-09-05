@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html class="theme-dark-blue" lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>PO TRADE Conta Demo – Experimente a negociação gratuita</title>
+    <meta name="description" content="Baixe uma conta demo gratuita na PO TRADE e experimente fazer negociações sem nenhum risco, tendo acesso total a todos os instrumentos de negociação.">
+    <meta name="keywords" content="Baixe uma conta demo gratuita na PO TRADE e experimente fazer negociações sem nenhum risco, tendo acesso total a todos os instrumentos de negociação."/>
+    <meta name="theme-color" content="#1F1F23">
+    <meta name="supported-color-schemes" content="light dark"/>
+    <meta name="google" content="notranslate"/>
+
+    <meta property="og:url" content="https://po.trade/pt/cabinet/try-demo/"/>
+    <meta property="og:title" content="Experimente a PO TRADE com uma conta demo gratuita!"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description"
+          content="Baixe uma conta demo gratuita na PO TRADE e experimente fazer negociações sem nenhum risco, tendo acesso total a todos os instrumentos de negociação."/>
+    <meta property="og:image" content="https://po.trade/themes/cabinet/images/og-logo.png"/>
+    <meta property="og:image:secure_url" content="https://po.trade/themes/cabinet/images/og-logo.png"/>
+
+    
+    
+    <meta property="fb:app_id" content="1766114290081567"/>
+
+            <meta name="viewport" content="width=1024,user-scalable=no">
+    
+            <meta name="interkassa-verification" content="67118cb77da5e6b94ffb91bbc472ce8a"/>
+    
+        <script>
+        function onBugsnagLoad() {
+            if (typeof window.Bugsnag === 'undefined') return;
+            window.Bugsnag.start({apiKey: '4856b3059a46d3720bad2f5b4e2ea3c4', appVersion: '8.1.16', autoTrackSessions: false})
+        }
+    </script>
+    <script async src="https://po.trade/js/bugsnag-7.min.js?ver=8.1.16" onload="onBugsnagLoad()"></script>
+
+    <link rel="stylesheet" href="https://po.trade/plugins/twitter-bootstrap/3.3.7/css/bootstrap.min.css?v=1738761003">
+    <link rel="stylesheet" href="https://po.trade/plugins/jquery.slick/1.6.0/slick-full.css?v=1725966118">
+
+    <link rel="stylesheet" href="https://po.trade//themes/cabinet-vite/vendors/animatecss.css?v=1788530827">
+<link rel="stylesheet" href="https://po.trade//themes/cabinet-vite/vendors/bootstrap-select.css?v=1788530827">
+<link rel="stylesheet" href="https://po.trade//themes/cabinet-vite/vendors/tippy.css?v=1788530827">
+<link rel="stylesheet" href="https://po.trade//themes/cabinet-vite/vendors/daterangepicker.css?v=1788530827">
+
+    <link rel="stylesheet" href="https://po.trade/platform/main.css?v=1788530842">
+<link rel="stylesheet" href="https://po.trade//themes/cabinet-vite/vendors/fonts.css?v=1788530827">
+<link charset="utf-8" rel="stylesheet" href="https://po.trade//themes/cabinet-vite/desktop.css?v=1788530827">
+<link class="desktop.theme" rel="stylesheet" href="https://po.trade//themes/cabinet-vite/desktop-theme-dark-blue.css?v=1788530827">
+    <script type="text/javascript">
+    var AppData = {"is-try-demo":1,"try-demo-servers-list":[{"server":"wss://try-demo-eu.po.market","name":"Try Demo"}],"trading_mode":"classic","is-visible-logo-register-demo":1,"cookie-domain":".po.trade","is-chart":1,"is-mobile-version":0,"is-detected-mobile":0,"lang":"pt","currency":"$","currency_code":"USD","site-url":"https://po.trade/pt/","base-url":"https://po.trade/","sounds_notification":1,"optimized_chart":1,"is-demo":1,"enabled_social":0,"enabled_tooltip_messages":1,"enabled_chart_hotkeys":0,"theme":"dark-blue","candleUpColor":"45b734","candleDownColor":"ff3e1f","shadowStyle":"regular","user-balance":0,"is-demo-profile":1,"serverTimeZoneOffset":120,"ajaxLoader":{"url":"/themes/cabinet/images/ajax-loader/loader.svg","template":"<div class=\u0022ajax-loader-v2 js-ajax-loader-v2\u0022><?xml version=\u00221.0\u0022 encoding=\u0022UTF-8\u0022 standalone=\u0022no\u0022?>\n<svg class=\u0022ajax-loader-v2__icon\u0022 width=\u002264\u0022 height=\u002264\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 shape-rendering=\u0022geometricPrecision\u0022 text-rendering=\u0022geometricPrecision\u0022 viewBox=\u00220 0 64 64\u0022 style=\u0022white-space: pre;\u0022>\n    <style>\n@keyframes a30160_t { 0% { transform: translate(55.5px,20.5px) scale(1,0.6) translate(-0.5px,-14px); } 84.2105% { transform: translate(55.5px,20.5px) scale(1,0.6) translate(-0.5px,-14px); } 100% { transform: translate(55.5px,18px) scale(1,1) translate(-0.5px,-14px); } }\n@keyframes a30160_o { 0% { opacity: 0; } 84.2105% { opacity: 0; } 100% { opacity: 1; } }\n@keyframes a30161_t { 0% { transform: translate(56px,29.5px) scale(1,0.052619) translate(-5px,-19.5px); } 73.6842% { transform: translate(56px,29.5px) scale(1,0.052619) translate(-5px,-19.5px); } 89.4736% { transform: translate(56px,29.5px) scale(1,1) translate(-5px,-19.5px); } 100% { transform: translate(56px,29.5px) scale(1,1) translate(-5px,-19.5px); } }\n@keyframes a30161_o { 0% { opacity: 0; } 73.6842% { opacity: 0; } 89.4737% { opacity: 1; } 100% { opacity: 1; } }\n@keyframes a30162_t { 0% { transform: translate(39.5px,20.5px) scale(1,0.5) translate(-0.5px,-5px); } 68.421% { transform: translate(39.5px,20.5px) scale(1,0.5) translate(-0.5px,-5px); } 84.2105% { transform: translate(39.5px,18px) scale(1,1) translate(-0.5px,-5px); } 100% { transform: translate(39.5px,18px) scale(1,1) translate(-0.5px,-5px); } }\n@keyframes a30162_o { 0% { opacity: 0; } 68.4211% { opacity: 0; } 84.2105% { opacity: 1; } 100% { opacity: 1; } }\n@keyframes a30163_t { 0% { transform: translate(40px,38px) scale(1,0.054423) translate(-5px,-21px); } 57.8947% { transform: translate(40px,38px) scale(1,0.054423) translate(-5px,-21px); } 73.6842% { transform: translate(40px,38px) scale(1,1) translate(-5px,-21px); } 100% { transform: translate(40px,38px) scale(1,1) translate(-5px,-21px); } }\n@keyframes a30163_o { 0% { opacity: 0; } 57.8947% { opacity: 0; } 73.6842% { opacity: 1; } 100% { opacity: 1; } }\n@keyframes a30164_t { 0% { transform: translate(23.5px,20.5px) scale(1,0.4) translate(-0.5px,9px); } 47.3684% { transform: translate(23.5px,20.5px) scale(1,0.4) translate(-0.5px,9px); } 63.1578% { transform: translate(23.5px,18px) scale(1,1) translate(-0.5px,9px); } 100% { transform: translate(23.5px,18px) scale(1,1) translate(-0.5px,9px); } }\n@keyframes a30164_o { 0% { opacity: 0; } 47.3684% { opacity: 0; } 63.1579% { opacity: 1; } 100% { opacity: 1; } }\n@keyframes a30165_t { 0% { transform: translate(24px,47px) scale(1,0.082881) translate(-5px,-16px); } 31.5789% { transform: translate(24px,47px) scale(1,0.082881) translate(-5px,-16px); } 47.3684% { transform: translate(24px,47px) scale(1,1) translate(-5px,-16px); } 100% { transform: translate(24px,47px) scale(1,1) translate(-5px,-16px); } }\n@keyframes a30165_o { 0% { opacity: 0; } 31.5789% { opacity: 0; } 47.3684% { opacity: 1; } 84.2105% { opacity: 1; } 100% { opacity: 1; } }\n@keyframes a30166_t { 0% { transform: translate(7.5px,25.5px) scale(1,0.7) translate(-0.5px,-14px); } 21.0526% { transform: translate(7.5px,25.5px) scale(1,0.7) translate(-0.5px,-14px); } 36.8421% { transform: translate(7.5px,18px) scale(1,1) translate(-0.5px,-14px); } 100% { transform: translate(7.5px,18px) scale(1,1) translate(-0.5px,-14px); } }\n@keyframes a30166_o { 0% { opacity: 0; } 21.0526% { opacity: 0; } 36.8421% { opacity: 1; } 100% { opacity: 1; } }\n@keyframes a30167_t { 0% { transform: translate(8px,17px) scale(1,0.058969) translateX(-5px); } 5.2631% { transform: translate(8px,17px) scale(1,0.058969) translateX(-5px); } 21.0526% { transform: translate(8px,17px) scale(1,1) translateX(-5px); } 100% { transform: translate(8px,17px) scale(1,1) translateX(-5px); } }\n@keyframes a30167_o { 0% { opacity: 0; } 5.2632% { opacity: 0; } 21.0526% { opacity: 1; } 100% { opacity: 1; } }\n    </style>\n    <rect width=\u00222\u0022 height=\u002237\u0022 fill=\u0022#0099fa\u0022 stroke=\u0022none\u0022 opacity=\u00220\u0022 transform=\u0022translate(55.5,20.5) scale(1,0.6) translate(-0.5,-14)\u0022 style=\u0022animation: 1.9s linear infinite both a30160_t, 1.9s linear infinite both a30160_o;\u0022/>\n    <rect width=\u002210\u0022 height=\u002219.5\u0022 fill=\u0022#0099fa\u0022 stroke=\u0022none\u0022 rx=\u00221\u0022 opacity=\u00220\u0022 transform=\u0022translate(56,29.5) scale(1,0.0526194) translate(-5,-19.5)\u0022 style=\u0022animation: 1.9s linear infinite both a30161_t, 1.9s linear infinite both a30161_o;\u0022/>\n    <rect width=\u00222\u0022 height=\u002242\u0022 fill=\u0022#0099fa\u0022 stroke=\u0022none\u0022 opacity=\u00220\u0022 transform=\u0022translate(39.5,20.5) scale(1,0.5) translate(-0.5,-5)\u0022 style=\u0022animation: 1.9s linear infinite both a30162_t, 1.9s linear infinite both a30162_o;\u0022/>\n    <rect width=\u002210\u0022 height=\u002221\u0022 fill=\u0022#0099fa\u0022 stroke=\u0022none\u0022 rx=\u00221\u0022 opacity=\u00220\u0022 transform=\u0022translate(40,38) scale(1,0.0544235) translate(-5,-21)\u0022 style=\u0022animation: 1.9s linear infinite both a30163_t, 1.9s linear infinite both a30163_o;\u0022/>\n    <rect width=\u00222\u0022 height=\u002228\u0022 fill=\u0022#0099fa\u0022 stroke=\u0022none\u0022 opacity=\u00220\u0022 transform=\u0022translate(23.5,20.5) scale(1,0.4) translate(-0.5,9)\u0022 style=\u0022animation: 1.9s linear infinite both a30164_t, 1.9s linear infinite both a30164_o;\u0022/>\n    <rect width=\u002210\u0022 height=\u002216\u0022 fill=\u0022#0099fa\u0022 stroke=\u0022none\u0022 rx=\u00221\u0022 opacity=\u00220\u0022 transform=\u0022translate(24,47) scale(1,0.0828809) translate(-5,-16)\u0022 style=\u0022animation: 1.9s linear infinite both a30165_t, 1.9s linear infinite both a30165_o;\u0022/>\n    <rect width=\u00222\u0022 height=\u002240\u0022 fill=\u0022#0099fa\u0022 stroke=\u0022none\u0022 opacity=\u00220\u0022 transform=\u0022translate(7.5,25.5) scale(1,0.7) translate(-0.5,-14)\u0022 style=\u0022animation: 1.9s linear infinite both a30166_t, 1.9s linear infinite both a30166_o;\u0022/>\n    <rect width=\u002210\u0022 height=\u002223\u0022 fill=\u0022#0099fa\u0022 stroke=\u0022none\u0022 rx=\u00221\u0022 opacity=\u00220\u0022 transform=\u0022translate(8,17) scale(1,0.0589689) translate(-5,0)\u0022 style=\u0022animation: 1.9s linear infinite both a30167_t, 1.9s linear infinite both a30167_o;\u0022/>\n</svg>\n</div>","classList":{"base":"ajax-loader-v2","button":"ajax-loader-v2--button","window":"ajax-loader-v2--window","block":"ajax-loader-v2--block","backing":"ajax-loader-v2__backing","absolute":"ajax-loader-v2--absolute"}},"currencyCodeToSymbol":{"TOURNAMENT":"T","USD":"$","EUR":"€","RUB":"₽","BRL":"R$","BHD":"BD","ZAR":"R","MYR":"RM","MAD":"Dh","TJS":"с.","THB":"฿","TRY":"₺","VES":"Bs","PHP":"₱","INR":"₹","BDT":"৳","DZD":"DA","JPY":"¥","PKR":"Rs.","KZT":"₸","CNY":"¥","VND":"₫","ARS":"$","NGN":"₦","UZS":"so’m","IDR":"Rp","IQD":"Id","KRW":"₩","COP":"$","IRR":"﷼","IRT":"تومان","PLN":"zł","KGS":"с","CLP":"$","MXN":"$","PEN":"S/","AOA":"Kz","GHS":"₵","ILS":"₪","SGD":"$","TZS":"TSh","ETB":"Br","XOF":"₣","XAF":"₣","NAD":"N$","MUR":"Re","LYD":"LD","BWP":"P","TND":"TD","TMT":"m","GEL":"₾","AMD":"֏","AZN":"₼","JOD":"JD","YER":"YR","KWD":"KD","LBP":"L£","OMR":"RO","SYP":"S£","CAD":"C$","CHF":"₣","AUD":"$","NZD":"$","GBP":"£","HUF":"Ft","RON":"L","CZK":"Kč","SEK":"kr","DKK":"Kr","NOK":"Kr"},"currencyDigitsList":{"TOURNAMENT":2,"BTC":7,"ETH":5,"LTC":3,"BCH":4,"BNB":4,"ZEC":4,"DASH":3,"ETC":3,"TON":4,"BIF":0,"CLP":0,"CVE":0,"DJF":0,"GNF":0,"ISK":0,"JPY":0,"KMF":0,"KRW":0,"PYG":0,"RWF":0,"UGX":0,"UYI":0,"VND":0,"VUV":0,"XAF":0,"XOF":0,"XPF":0},"currencyLeftSideList":["TOURNAMENT","USD","EUR","BRL","MYR","THB","PHP","INR","JPY","PKR","CNY","ARS","NGN","IDR","KRW","COP","CLP","MXN","PEN","AOA","GHS","ILS","SGD","TZS","NAD","MUR","LYD","TND","GEL","AZN","JOD","KWD","OMR"],"isShowClosedTradesOnChart":1,"hideBoFeatures":0,"hideChartExpiration":0,"is-profit-term-app":0,"is-webview2-app":0,"disable-c-assets":0,"dailyBonus":{"title":"Bônus diário","desc":"Cadastre-se, recarregue sua conta, comece a negociar em uma conta real e receba bônus todos os dias!","registration":"Registrar-se","secretGift":"Presente secreto","registerUrl":"https://po.trade/pt/register/","weeks":["Semana 1","Semana 2","Semana 3","Semana 4"],"days":[{"label":"Dia 1","img":"/images/market-v2/offers/dark-blue/diamonds/6-red.png"},{"label":"Dia 2","img":"/images/market-v2/offers/dark-blue/diamonds/6-red.png"},{"label":"Dia 3","img":"/images/market-v2/offers/dark-blue/boosters/4-1.png"},{"label":"Dia 4","img":"/images/market-v2/offers/dark-blue/boosters/5-1.png"},{"label":"Dia 5","img":"/images/market-v2/offers/dark-blue/boosters/5-1.png"},{"label":"Dia 6","img":"/images/market-v2/offers/dark-blue/diamonds/6-red.png"}],"comboDay":{"label":"Dia 7","img":"/themes/cabinet/images/modal/daily-bonus-modal/last-day/gift1.png"}},"show_tutorial_1_modal":true};
+</script>
+
+    <script src="https://po.trade/try-demo/vendor.js?v=1788530835"></script>
+
+    <meta name="yandex-verification" content="3babc6a7fc636ad8" />
+<script>
+function trackGtmSessionId(ga_session_id) {
+    }
+</script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+            window.dataLayer.push({"platform":0});
+            window.dataLayer.push({"is_webview":"no"});
+    
+    
+    var isFramed = false;
+    try {
+        isFramed = window != window.top || document != top.document || self.location != top.location;
+    } catch (e) {
+        isFramed = true;
+    }
+    if (!isFramed) {
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://po.trade/_gtm_gateway/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KBDR983M');
+    }
+</script>
+<script>
+(function(window, document) {
+    window.appsFlyerFunctions = window.appsFlyerFunctions || [];
+
+        function googlePlayMainApp() {
+        var oneLinkURL = "https://pomain.onelink.me/PuH1";
+        var mediaSource = {keys:["utm_source"],defaultValue:"web_to_app"};
+        var campaign = {keys:["utm_campaign"]};
+        var afSub1 = {keys:["utm_term"]};
+        var afSub2 = {keys:["utm_medium"]};
+        var ad = {keys:["utm_content"]};
+        var googleClickIdKey = "af_sub3";
+        var afSub5 = {keys:["fbclid"]};
+        var from_alanbase = {paramKey:"from_alanbase",keys:["from_alanbase"],defaultValue:"0"};
+        var afSub4 = {keys:["click_id"]};
+        var a = {paramKey:"a",keys:["a"]};
+        var ac = {paramKey:"ac",keys:["ac"]};
+        var web2app = {paramKey:"web2app",keys:["kkkkkk"],defaultValue:"web2app"};
+        var afsite_id = {paramKey:"afsite_id",keys:["af_siteid"],defaultValue:"web2app"};
+        var custom_ss_ui = {paramKey:"af_ss_ui",defaultValue:"true"};
+
+        if (typeof window.AF_SMART_SCRIPT === 'undefined' || typeof window.AF_SMART_SCRIPT.generateOneLinkURL !== 'function') {
+            return;
+        }
+
+        //Onelink URL is generated.
+        var result = window.AF_SMART_SCRIPT.generateOneLinkURL({
+            oneLinkURL: oneLinkURL,
+            afParameters: {
+                mediaSource: mediaSource,
+                campaign: campaign,
+                afSub1: afSub1,
+                afSub2: afSub2,
+                ad: ad,
+                googleClickIdKey: googleClickIdKey,
+                afSub5: afSub5,
+                afCustom: [
+                    from_alanbase,
+                    a,
+                    ac,
+                    web2app,
+                    afsite_id,
+                    custom_ss_ui
+                ],
+                afSub4: afSub4
+            }
+        });
+
+        if (result && result.clickURL) {
+            var eles = document.querySelectorAll('.js-google-play-main-app');
+            if (eles.length) Array.from(eles).forEach(ele => ele.setAttribute('href', result.clickURL));
+        }
+    }
+
+        function apkMainApp() {
+        var oneLinkURL = "https://poa.onelink.me/RCtj";
+        var mediaSource = {keys:["utm_source"],defaultValue:"web_to_app"};
+        var campaign = {keys:["utm_campaign"],defaultValue:"apk"};
+        var afSub1 = {keys:["utm_term"]};
+        var afSub2 = {keys:["utm_medium"]};
+        var ad = {keys:["utm_content"]};
+        var googleClickIdKey = "af_sub3";
+        var afSub5 = {keys:["fbclid"]};
+        var from_alanbase = {paramKey:"from_alanbase",keys:["from_alanbase"],defaultValue:"0"};
+        var afSub4 = {keys:["click_id"]};
+        var a = {paramKey:"a",keys:["a"]};
+        var ac = {paramKey:"ac",keys:["ac"]};
+        var web2app = {paramKey:"web2app",keys:["kkkkkk"],defaultValue:"web2app"};
+        var afsite_id = {paramKey:"afsite_id",keys:["af_siteid"],defaultValue:"web2app"};
+        var custom_ss_ui = {paramKey:"af_ss_ui",defaultValue:"true"};
+
+        var result = window.AF_SMART_SCRIPT.generateOneLinkURL({
+            oneLinkURL: oneLinkURL,
+            afParameters: {
+                mediaSource: mediaSource,
+                campaign: campaign,
+                afSub1: afSub1,
+                afSub2: afSub2,
+                ad: ad,
+                googleClickIdKey: googleClickIdKey,
+                afSub5: afSub5,
+                afCustom: [
+                    from_alanbase,
+                    a,
+                    ac,
+                    web2app,
+                    afsite_id,
+                    custom_ss_ui
+                ],
+                afSub4: afSub4
+            }
+        });
+
+        if (result && result.clickURL) {
+            var eles = document.querySelectorAll('.js-apk-main-app');
+            if (eles.length) Array.from(eles).forEach(ele => ele.setAttribute('href', result.clickURL));
+        }
+    }
+
+        window.appsFlyerGooglePlayMainAppChangeLink = googlePlayMainApp;
+    window.appsFlyerApkMainAppChangeLink = apkMainApp;
+
+    window.appsFlyerFunctions.push(googlePlayMainApp);
+    window.appsFlyerFunctions.push(apkMainApp);
+})(window, document);
+</script>
+
+<script>
+(function(window, document) {
+    window.appsFlyerFunctions = window.appsFlyerFunctions || [];
+
+        function googlePlayMessengerApp() {
+        var oneLinkURL = "https://pomessenge.onelink.me/nHpb";
+        var mediaSource = {keys:["utm_source"],defaultValue:"web_to_app"};
+        var campaign = {keys:["utm_campaign","ac"]};
+        var afSub1 = {keys:["utm_term"]};
+        var afSub2 = {keys:["utm_medium"]};
+        var ad = {keys:["utm_content"]};
+        var googleClickIdKey = "af_sub3";
+        var afSub5 = {keys:["fbclid"]};
+        var from_alanbase = {paramKey:"from_alanbase",keys:["from_alanbase"],defaultValue:"0"};
+        var afSub4 = {keys:["click_id"]};
+        var a = {paramKey:"a",keys:["a"]};
+        var ac = {paramKey:"ac",keys:["ac"]};
+        var web2app = {paramKey:"web2app",keys:["kkkkkk"],defaultValue:"web2app"};
+        var af_siteid = {paramKey:"af_siteid",keys:["af_siteid"],defaultValue:"web2app"};
+        var custom_ss_ui = {paramKey:"af_ss_ui",defaultValue:"true"};
+
+        if (typeof window.AF_SMART_SCRIPT === 'undefined' || typeof window.AF_SMART_SCRIPT.generateOneLinkURL !== 'function') {
+            return;
+        }
+
+        var result = window.AF_SMART_SCRIPT.generateOneLinkURL({
+            oneLinkURL: oneLinkURL,
+            afParameters: {
+                mediaSource: mediaSource,
+                campaign: campaign,
+                afSub1: afSub1,
+                afSub2: afSub2,
+                ad: ad,
+                googleClickIdKey: googleClickIdKey,
+                afSub5: afSub5,
+                afCustom: [
+                    from_alanbase,
+                    a,
+                    ac,
+                    web2app,
+                    af_siteid,
+                    custom_ss_ui
+                ],
+                afSub4: afSub4
+            }
+        });
+
+        if (result && result.clickURL) {
+            var eles = document.querySelectorAll('.js-google-play-messenger');
+            if (eles.length) Array.from(eles).forEach(ele => ele.setAttribute('href', result.clickURL));
+        }
+    }
+
+        function googlePlayAiApp() {
+        var oneLinkURL = "https://pocketai.onelink.me/EjnQ";
+        var mediaSource = {keys:["utm_source"],defaultValue:"web_to_app"};
+        var campaign = {keys:["utm_campaign"]};
+        var afSub1 = {keys:["utm_term"]};
+        var afSub2 = {keys:["utm_medium"]};
+        var ad = {keys:["utm_content"]};
+        var googleClickIdKey = "af_sub3";
+        var afSub5 = {keys:["fbclid"]};
+        var from_alanbase = {paramKey:"from_alanbase",keys:["from_alanbase"],defaultValue:"0"};
+        var afSub4 = {keys:["click_id"]};
+        var a = {paramKey:"a",keys:["a"]};
+        var ac = {paramKey:"ac",keys:["ac"]};
+        var web2app = {paramKey:"web2app",keys:["kkkkkk"],defaultValue:"web2app"};
+        var afsite_id = {paramKey:"afsite_id",keys:["af_siteid"],defaultValue:"web2app"};
+        var custom_ss_ui = {paramKey:"af_ss_ui",defaultValue:"true"};
+
+        if (typeof window.AF_SMART_SCRIPT === 'undefined' || typeof window.AF_SMART_SCRIPT.generateOneLinkURL !== 'function') {
+            return;
+        }
+
+        var result = window.AF_SMART_SCRIPT.generateOneLinkURL({
+            oneLinkURL: oneLinkURL,
+            afParameters: {
+                mediaSource: mediaSource,
+                campaign: campaign,
+                afSub1: afSub1,
+                afSub2: afSub2,
+                ad: ad,
+                googleClickIdKey: googleClickIdKey,
+                afSub5: afSub5,
+                afCustom: [
+                    from_alanbase,
+                    a,
+                    ac,
+                    web2app,
+                    afsite_id,
+                    custom_ss_ui
+                ],
+                afSub4: afSub4
+            }
+        });
+
+        if (result && result.clickURL) {
+            var eles = document.querySelectorAll('.js-google-play-ai-app');
+            if (eles.length) Array.from(eles).forEach(ele => ele.setAttribute('href', result.clickURL));
+        }
+    }
+
+        window.appsFlyerGooglePlayMessengerAppChangeLink = googlePlayMessengerApp;
+
+    appsFlyerFunctions.push(googlePlayMessengerApp);
+    appsFlyerFunctions.push(googlePlayAiApp);
+})(window, document);
+
+
+function affixScriptToHead(url, onloadFunction) {
+    const newScript = document.createElement("script");
+    newScript.onerror = loadError;
+    if (onloadFunction) {
+    newScript.onload = onloadFunction;
+    }
+    document.head.appendChild(newScript);
+    newScript.src = url;
+}
+
+function onAppsFlyerLoad() {
+    if (Array.isArray(window.appsFlyerFunctions) && window.appsFlyerFunctions.length > 0) {
+        for (let i = 0; i < window.appsFlyerFunctions.length; i++) {
+            const func = window.appsFlyerFunctions[i];
+            if (typeof func === 'function') {
+                try {
+                    func();
+                } catch (e) {
+                    console.error('Error executing AppsFlyer function:', e);
+                }
+            }
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    affixScriptToHead("//onelinksmartscript.appsflyer.com/onelink-smart-script-latest.js", onAppsFlyerLoad);
+});
+</script>
+
+<script>
+function logEvent(name, params) {
+    if (!name) {
+        return;
+    }
+
+    if (window.AnalyticsWebInterface && window.AnalyticsWebInterface.logEvent) {
+        // Call Android interface
+        window.AnalyticsWebInterface.logEvent(name, JSON.stringify(params));
+    } else if (window.webkit
+        && window.webkit.messageHandlers
+        && window.webkit.messageHandlers.firebase) {
+        // Call iOS interface
+        var message = {
+            command: 'logEvent',
+            name: name,
+            parameters: params
+        };
+        window.webkit.messageHandlers.firebase.postMessage(message);
+    }
+}
+
+function setUserProperty(name, value) {
+    if (!name || !value) {
+        return;
+    }
+
+    if (window.AnalyticsWebInterface && window.AnalyticsWebInterface.setUserProperty) {
+        // Call Android interface
+        window.AnalyticsWebInterface.setUserProperty(name, value);
+    } else if (window.webkit
+        && window.webkit.messageHandlers
+        && window.webkit.messageHandlers.firebase) {
+        // Call iOS interface
+        var message = {
+            command: 'setUserProperty',
+            name: name,
+            value: value
+        };
+        window.webkit.messageHandlers.firebase.postMessage(message);
+    }
+}
+
+function loadError(oError) {
+   console.log("The script " + oError.target.src + " didn't load correctly.");
+}
+</script>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+    import { getPerformance } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-performance.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyAznGpCrpIWxRVeNfnWjtvkNbzYQqKSnqM",
+        authDomain: "focal-future-398707.firebaseapp.com",
+        projectId: "focal-future-398707",
+        storageBucket: "focal-future-398707.firebasestorage.app",
+        messagingSenderId: "738376900958",
+        appId: "1:738376900958:web:8dae08f589e5f6fa24efcf"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    // Initialize Performance Monitoring
+    const performance = getPerformance(app);
+</script>
+</head>
+<body class="is-chart is-chart-demo is-quick has-bg-image is-try-demo is-pc-version">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBDR983M" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<div class="wrapper">
+    <div class="wrapper__top">
+        <header class="site-header">
+            <a href="https://po.trade/pt/cabinet/" class="site-header__logo">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" class="po-logo po-logo-color" clip-rule="evenodd" viewBox="0 0 232 66" width="100%" height="100%">
+    <g transform="scale(0.56504 0.66298)">
+        <path fill="none" d="M0 0h410.59v99.55H0z"/>
+        <g>
+            <path fill="#002dda" d="M71.006 4.544c18.717 6.815 31.528 21.323 31.528 38.07 0 16.756-12.815 31.264-31.532 38.072C52.29 73.878 39.47 59.37 39.47 42.615c0-16.752 12.82-31.26 31.536-38.07Z"/>
+            <path fill="#009cff" d="M71.003 4.542C77.489 1.581 84.888 0 92.713 0c27.201 0 49.283 19.095 49.283 42.617 0 23.519-22.082 42.614-49.283 42.614-7.825 0-15.224-1.578-21.714-4.543 16.357-6.811 27.564-21.319 27.564-38.07 0-16.753-11.203-31.26-27.56-38.075Z"/>
+            <path fill="#004ee7" d="M70.997 80.685c-6.49 2.965-13.893 4.546-21.715 4.546H20.197L7.106 96.551c-1.189 1.029-2.978 1.336-4.535.78C1.015 96.773 0 95.46 0 94.002V5.5C0 2.463 2.848 0 6.36 0h43.08C57.21.02 64.558 1.602 71 4.543c-16.361 6.812-27.568 21.32-27.568 38.07 0 16.756 11.207 31.264 27.565 38.072Z"/>
+            <path fill="#fff" class="logo__letter-1" d="M223.772 70.316h-7.362V46.441l.016.287c0-12.394 13.525-22.308 26.697-15.534l-3.255 5.518c-7.168-3.735-16.096-.354-16.096 8.81v24.794ZM341.537 65.425c-4.566 3.695-10.749 5.964-17.55 5.964-14.05 0-25.46-9.682-25.46-21.61 0-11.927 11.41-21.613 25.46-21.613 6.801 0 12.984 2.269 17.55 5.964V14.263h7.903v55.993h-7.903v-4.831Zm-17.55.328c-9.962 0-17.797-7.003-17.797-15.974 0-8.974 7.835-15.877 17.796-15.877 9.962 0 17.628 6.903 17.628 15.877 0 8.97-7.666 15.974-17.628 15.974ZM365.534 52.717c.645 3.841 2.674 6.936 6.084 9.289 3.462 2.39 7.761 3.59 12.905 3.59 6.004 0 10.884-1.657 14.645-4.96l4.273 4.258c-2.174 2.056-4.838 3.634-7.988 4.739-3.349 1.172-7.087 1.758-11.217 1.758-5.257 0-9.92-.918-13.99-2.758-4.046-1.83-7.175-4.387-9.385-7.677-2.215-3.298-3.32-7.023-3.32-11.172 0-4.098 1.075-7.798 3.228-11.096 2.149-3.29 5.104-5.85 8.87-7.68 3.776-1.834 8.033-2.75 12.775-2.75 4.74 0 8.965.914 12.674 2.747 3.703 1.83 6.595 4.39 8.68 7.677 2.091 3.302 3.134 7.085 3.134 11.347 0 .484-.044 1.094-.13 1.833h-41.356c.023.205.046.407.078.605.012.084.025.168.04.25Zm33.806-5.978-.004-.043c-.532-3.785-2.344-6.875-5.427-9.277-3.085-2.405-6.915-3.613-11.495-3.613-4.578 0-8.409 1.194-11.494 3.57-3.083 2.374-4.896 5.48-5.428 9.322l-.002.041h33.85Z"/>
+            <path fill="#fff" class="logo__letter-1" d="m223.573 29.33.198 8.144v32.843h-7.36l.087-40.986h7.075ZM282.626 64.54l-.81 1.275c-1.463 1.806-3.682 3.05-6.29 4.026-2.773 1.034-6.062 1.549-9.863 1.549-5.528 0-9.959-1.127-13.282-3.403-3.282-2.249-4.921-5.202-4.921-8.862s1.56-6.797 4.69-9.02c3.174-2.254 8.223-3.533 15.133-3.533h14.705c.266 0 .479-.183.479-.408v-1.172c0-3.492-1.427-6.532-3.804-8.39-2.362-1.846-5.834-2.788-10.426-2.788-3.04 0-6.014.428-8.925 1.283-2.706.793-4.909 2.373-6.835 3.667l-3.45-5.283c2.495-1.653 5.45-2.925 8.865-3.818 3.578-.937 7.375-1.404 11.393-1.404 6.846 0 12.095 1.415 15.735 4.28 3.631 2.855 5.421 7.118 5.421 12.777v25h-7.84l.025-5.775Zm-21.124-12.168c-3.98.998-5.944 3.163-5.944 6.429 0 2.304 1.052 4.118 3.148 5.444 2.04 1.29 4.865 1.948 8.481 1.948 3.593 0 6.693-.685 9.306-2.049 2.63-1.373 4.755-3.32 5.94-5.842a.348.348 0 0 0 .034-.152v-6.01a.367.367 0 0 0-.017-.109h-17.72c-1.827 0-2.414.207-3.228.34ZM180.65 13.423h7.741V70.28h-7.741z"/>
+            <path fill="#fff" class="logo__letter-1" d="M208.776 13.423v6.598h-48.51v-6.598z"/>
+        </g>
+    </g>
+</svg>            </a>
+
+            <div id="js-window-layout-switcher" class="window-layout-switcher"></div>
+            <div id="js-fav-panel-switcher"></div>
+
+            <div class="right-block">
+                <div class="right-block__item bonus-btn-wrap" style="display: flex">
+                    <a class="h-btn h-btn--bonus js-bonus-100" href="https://po.trade/pt/deposit-demo/?code=50START">
+                        <div class="h-btn__start">
+                            <img src="/themes/cabinet/images/header-buttons/bonus-icon.png" alt="">
+                        </div>
+                        <div class="h-btn__end">
+                            <div class="h-btn__text">
+                                Obter bônus 50%                            </div>
+                            <div class="h-btn__text-small">
+                                Abrir conta real                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="right-block__item js-try-demo-balance"></div>
+
+                <div class="right-block__item deposit-btn-wrap">
+                    <a class="h-btn h-btn--deposit"
+                       href="https://po.trade/pt/deposit-demo/">
+                        <div class="h-btn__start">
+                            <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17 4H16V3C16 2.20435 15.6839 1.44129 15.1213 0.87868C14.5587 0.316071 13.7956 0 13 0H3C2.20435 0 1.44129 0.316071 0.87868 0.87868C0.316071 1.44129 0 2.20435 0 3V15C0 15.7956 0.316071 16.5587 0.87868 17.1213C1.44129 17.6839 2.20435 18 3 18H17C17.7956 18 18.5587 17.6839 19.1213 17.1213C19.6839 16.5587 20 15.7956 20 15V7C20 6.20435 19.6839 5.44129 19.1213 4.87868C18.5587 4.31607 17.7956 4 17 4ZM3 2H13C13.2652 2 13.5196 2.10536 13.7071 2.29289C13.8946 2.48043 14 2.73478 14 3V4H3C2.73478 4 2.48043 3.89464 2.29289 3.70711C2.10536 3.51957 2 3.26522 2 3C2 2.73478 2.10536 2.48043 2.29289 2.29289C2.48043 2.10536 2.73478 2 3 2ZM18 12H17C16.7348 12 16.4804 11.8946 16.2929 11.7071C16.1054 11.5196 16 11.2652 16 11C16 10.7348 16.1054 10.4804 16.2929 10.2929C16.4804 10.1054 16.7348 10 17 10H18V12ZM18 8H17C16.2044 8 15.4413 8.31607 14.8787 8.87868C14.3161 9.44129 14 10.2044 14 11C14 11.7956 14.3161 12.5587 14.8787 13.1213C15.4413 13.6839 16.2044 14 17 14H18V15C18 15.2652 17.8946 15.5196 17.7071 15.7071C17.5196 15.8946 17.2652 16 17 16H3C2.73478 16 2.48043 15.8946 2.29289 15.7071C2.10536 15.5196 2 15.2652 2 15V5.83C2.32127 5.94302 2.65943 6.00051 3 6H17C17.2652 6 17.5196 6.10536 17.7071 6.29289C17.8946 6.48043 18 6.73478 18 7V8Z" fill="currentColor"/>
+</svg>
+                        </div>
+                        <div class="h-btn__end">
+                            <div class="h-btn__text">
+                                Recarregar conta                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="right-block__item">
+                    <div class="header-avatar js-header-avatar">
+                        <div class="header-avatar__l">
+                            <div class="user-avatar user-avatar--level--1 tooltip2" style="--user-avatar-size: 42px">
+            <div class="user-avatar__profile-level-icon">
+                    </div>
+        <div class="user-avatar__img-wrap user-avatar__img-wrap--demo">
+        <img src="https://pocket-uploads.com/images/cabinet/no_avatar.png?v=1680850307&w=42" alt="" class="user-avatar__img">
+    </div>
+            
+<div class="profile-level" style="--profile-level-size: 42px">
+        </div>
+        <div class="tooltip-content position-down">
+            <div class="tooltip-text">Demo</div>
+        </div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="js-assets-favorites-slider"></div>
+    </div>
+    <div class="wrapper__bottom">
+        <div class="left-sidebar show-text js-left-sidebar"></div>
+        <div class="site-content left-shadow">
+            <div class="site-content-in js-site-content chart-main-block page-content" id="bar-chart"></div>
+        </div>
+        <div class="right-sidebar show-text js-right-sidebar"></div>
+    </div>
+</div>
+
+<div class="hidden">
+    
+<script type="text/javascript">
+    var translations = translations || {};
+    translations = Object.assign({}, translations, {"load_next":"Carregar","setting_saved":"Configuração gravada","choose_the_country":"Selecionar o país","date_of_use":"Data de utilização","no_purchases":"Sem compras","go_to_the_market":"Ir para o Mercado","tc":"Termos e Condições","additional_info":"Informações complementares","dep_acc":"Recarregar conta","more":"Mais informações","period":"Período","d":"d","h":"h","m":"m","s":"s","current":"Atual","apply":"Aplicar","sign_up":"Registrar-se","sign_in":"Entrar","or":"ou","request_process_label":"Pedido em processamento...","level_up":"Novo nível","short_days":"d.","remove":"Remover","cancel":"Cancelar","save":"Salvar","active":"Ativado","inactive":"Inativo","no_data":"Sem dados","profitability":"Rentabilidade","profit_usd":"Lucro, $","bet_amounts_by_assets":"Valores de comércios por ativos","bets_distribution_by_assets":"Distribuição de comércios por ativos","no_trading_history":"Sem histórico de negociação","on":"Em","me":"Eu","desc":"Descrição","register":"Registrar-se","dep":"Recarregar saldo","live":"Real","demo":"Demo","schedule":"Horário","buy":"Comprar","sell":"Venda","from_date":"de","ago":"atrás","timezone":"Fuso horário","unknown_error":"Erro desconhecido","for":"para","logout":"Sair","won":"Ganhou","lost":"Perdido","symbols":"Símbolos","take_profit":"Obtenção de lucro","revenue":"Receita","Until:":"Até:","left-sidebar":{"forex":"Negociação Forex","trading":"Negociação","trading-desc":"Selecione um tipo de negociação para a sua conta real ou de demonstração","finance":"Finanças","finance-desc":"Invista dinheiro efetivo e retire os lucros","profile":"Perfil","profile-desc":"Informações sobre o seu perfil e sucessos no trading","market":"Mercado","market-desc":"Compra e utilização de várias vantagens de negociação","ach":"Conquistas","ach-desc":"Seus sucessos por atividade","chat":"Chat","chat-desc":"Chat de suporte técnico, chat de comerciantes e notificações","help":"Ajuda","help-desc":"Entre em contato com nossa equipe de suporte e saiba como operar nos mercados financeiros.","tour":"Torneio","tour-desc":"As comércios com dinheiro virtual na conta de torneio (incremento adicional de saldo de torneio a dinheiro efetivo)","tour-rating":"Ranking","tour-rating-desc":"O ranking de torneio corrente em que você está participando","mob-ver":"Versão móvel","quick":"Negociação rápida","real":"Conta Real","demo":"Conta demo","bots":"Negociação de Bots","trade-history":"Histórico de operações","balance-history":"Histórico","cashback":"Cashback","promo":"Códigos promocionais","safe":"Meu cofre","deposit":"Recarregar saldo","withdrawal":"Retirar fundos","trade-profile":"Perfil de negociação","security":"Segurança","purchases":"As compras","gems-lottery":"Loteria de gemas","gems-mining":"Mineração de gemas","soc-shards":"Recompensas sociais","ach-history":"Histórico","ach-rating":"Ranking","com-help":"Ajuda da Comunidade","tickets":"Serviço de Suporte","guide":"Guias e Tutoriais","reviews":"Comentários","sup-chat":"Chat de Suporte","aff":"Programa de Afiliados","apps":"Aplicativos","channels":"Canais oficiais","pocket-friends":"Pocket Friends","daily-bonus":"Bônus diário","your-location":"Seu local"},"tutorial_v1":{"wrong_orientation_title":"Gire seu dispositivo","wrong_orientation_text":"A integração só está disponível na orientação de tela retrato"},"time":{"hours":"horas","minutes":"minutos","seconds":"segundos","hour":"Hora","minute":"min.","second":"Segundo","short_h":"%sh","short_min":"%smin","short_sec":"%sec"},"errors":{"max_amount":"Montante máximo","min_amount":"Montante mínimo","min_max_amount":"Montante incorreto","unexpected_error":"Ocorreu um erro inesperado","unexpected_error_please_try_later":"Erro inesperado. Por favor, tente mais tarde!","incorrect_exp_time":"Data de validade incorreta","cannot_get_price":"Não é possível obter o preço","cannot_get_asset":"Não é possível obter dados de ativos","not_enough_funds":"Fundos insuficientes","invalid_payout":"Você pode fazer uma comércio, onde o pagamento é superior a 0%.","incorrect_payout":"Pagamento incorreto","account_not_found":"Conta não encontrada","bad_trade_type":"Tipo de comércio incorreto","max_trade_amount":"O limite máximo de negociações abertas é de %s","max_trade_amount_real":"Open trades limit for the period has been reached - %s","max_trade_amount_volume":"Não é possível aceitar a negociação pelo formador de mercado","max_pendings_amount":"O limite máximo de negociações pendentes abertas é de %s","max_drawings_amount":"O número máx. de desenhos por símbolo é %s","max_indicators_amount":"O limite máximo de indicadores é %s","trading_disabled":"O atual limite de negociações foi alcançado.<br\/>Entre em contato com a equipe de suporte para obter informações detalhadas.","free_trade_not_found":"Ultrade not found"},"pending_order_errors":{"min_max_amount":"Negociação pendente falhou: montante mínimo\/máximo não atingido","acc_not_found":"Negociação pendente falhou: conta não encontrada","not_enough_funds":"Negociação pendente falhou: não há fundos suficientes","asset_data":"Negociação pendente falhou: ativo não disponível","min_payout":"Negociação pendente falhou: pagamento mín não cumprido","inc_exp_time":"Negociação pendente falhou: o tempo de expiração não foi cumprido","cannot_create":"Falha no negociação pendente: erro no servidor"},"forms":{"empty_text":"Não preenchido"},"assets":{"stocks_label":"Ações","commodities_label":"Commodities","oils_label":"Óleos","currencies_label":"Moedas","cryptocurrencies_label":"Criptomoedas","indices_label":"Índices","index_label":"Índice","fav":"Favoritos","search":"A pesquisa rápida de ativos","share_of":"promoção","available_time":"O bem está disponível durante o tempo indicado","unavailable_time":"O bem está indisponível durante o tempo indicado","switch_time":"O ativo está disponível 24 horas por dia.","unavailable":"Bens indisponíveis","view_schedule":"Ver agenda completa","full_time":"A tempo inteiro","working_temporary":"Temporário","otc_desc":"As cotações OTC são fornecidas diretamente por bancos internacionais, fornecedores de liquidez e criadores de mercado sem a supervisão de uma bolsa.","trading_assets":"Ativos de negociação","change_min_timeframe":"O tempo mínimo de expiração para o ativo atual foi alterado para","change_auto_offset":"A compensação de tempo automática mínima para o ativo atual foi alterada para","not_found":"Não encontrado","favorites_no_items":"Escolha os bens desejados para ser representado na sua seção favorita.","clear_favorites":"Limpar favoritos","payout-desc":"Aumento do pagamento em até %s!","profit-desc":"Lucro maior de até %s!","revenue-desc":"Lucros maiores de até %s!"},"settings_modal":{"background_image":{"no_selected_file":"Selecionar arquivo","file_types_error":"Apenas JPG e PNG são permitidos","file_size":"Tamanho máximo do arquivo: 2Mb"}},"chart_settings":{"chart_types":"Tipos de gráficos","chart_type":"Tipo do gráfico","time_frames":"Time frames","timeframe":"Tempo Gráfico","settings":"Definições","timer_on":"Habilitar temporizador","enable_scroll":"Ativar o autoscroll","enable_grid_snap":"Ativar o snap da grelha","candle_colors":"Cores de velas personalizadas","market_watch":"Vigilância do Mercado","multi_chart":"Multi-gráficos","trade_monitor":"Trade Monitor","social_trading":"Negociação Social","social_betting":"Negociação Social","mw_bets_red":"A maioria das comércios são vermelhas (para baixo)","mw_bets_green":"A maioria das comércios são vermelhas (verdes)","mw_bets_draw":"Empate","mw_panel_off":"Você pode ligar ou desligar o painel da monitorização do mercado nos ajustes da plataforma.","tournament_rank_panel_off":"Você pode ativar ou desativar o widget de ranking em definições da plataforma.","amount":"Valor","tm_panel_off":"Você pode ativar ou desativar a monitorização de comércios em definições da plataforma.","tm_possible_profit":"Renta estimada","favorites_list":"Lista de ativos favoritas","indicators":"Indicadores","drawings":"Desenhos","result":"Resultado","bet_amount":"Valor de comércio","profitable_deals":"Opções lucrativas","possible_profit":"Renta estimada","high_label":"Máximo:","low_label":"Mínimo:","open_label":"Aberto:","close_label":"Encerrado:","area":"Área","line":"Linha","candles":"Barras japonesas","bars":"Barras","heiken_ashi":"Heikin Ashi","expiration_time":"Tempo até o fechamento","deadline_time":"Tempo até a compra","expiration_time_fast":"Tempo de expiração","rating":"Ranking","time_to_purchase_tooltip":"Defina o tempo antes da compra do seu contrato de opção. O preço do contrato de opção é fixado no momento da encomenda.","symbol_unavailable":"Desculpe, este instrumento comercial não está actualmente disponível.","click_to_reload":"Clique para recarregar","type_line":"Linha","type_histogram":"Histograma","zoom_plus":"Ampliar","zoom_minus":"Reduzir","hide_chart":"Ocultar gráfico","hide_chart_tooltip":"Clique para fechar esta janela do gráfico","switch_to_q":"Mudar para Trading rápida","switch_to_d":"Modo de expiração do interruptor","tooltip_quick_option":"Defina o momento em que a sua operação de negociação será encerrada. Ao colocar uma previsão \"Comprar\" ou \"Vender\", receberá o resultado em","tooltip_quick_option_calendar":"Defina o horário do servidor (%s) em que sua negociação será fechada. Ao fazer uma previsão clicando nos botões Comprar ou Vender, você terá o resultado exatamente em %s.","custom_colors":"Cores personalizadas","uptrend_color":"Cor da tendência de subida","downtrend_color":"Cor da tendência descendente","default_colors":"Usar cores padrão","shadow_style":"Estilo Sombra","shadow_style_regular":"Regular","shadow_style_thick":"Espesso","chart_range_tooltip":"Mostrar a gama de gráficos do conjunto. A escala e o intervalo variam em função da área da janela.","amount_type_$":"Especifique o montante exato da sua transação.","amount_type_%":"Especifique a percentagem do saldo da conta de negociação utilizada para calcular o valor da sua transação.","show_area":"Área de exposição","show_positions_on_chart":"Mostrar posições no gráfico","current_color":"Cor atual"},"deals":{"view_history_of_live_trades":"Ver histórico de negociações reais","view_history_of_demo_trades":"Veja o histórico de operações de demonstração","asset":"Ativo","payout":"Pagamentos","copy_payout":"Pagamento pela cópia","copy":"Copiar","profit":"Lucro","open_price":"Cotação de abertura","close_price":"Cotação de fechamento","get":"Receber","close":"Fechar","cancel":"Cancelar","close_time":"Horário de fechamento","new_close_time":"Novo tempo de fecho","trades":"Transacões","games":"Jogos","bets_history":"Suas comércios correntes e história","placed_trades":"Ofícios colocados","no_placed_trades":"Nenhum comércio colocado","opened_trades":"Aberto","no_opened_trades":"Sem transações abertas","closed_trades":"Fechado","no_closed_trades":"Sem transações encerradas","open_order_success_label":"A transacão aberta com sucesso a preço:","copy_order_success_label":"A comércio está copiada com sucesso por preço %s","copy_order_error_label":"A comércio não poderá ser copiada","closed_order_success":"Parabéns! Acabou de ganhar %s%% sobre %s","closed_order_no_profit":"A negociação de %s está concluída. Lucro recebido: %s%%","cancel_order_success_label":"Negociação cancelada com sucesso com um valor de reembolso de %s","cancel_order_error_label":"É impossível cancelar a comércio","cancel_order_error_hedged_label":"A comércio não pode ser cancelada porque foi coberta","time_left":"Restou o tempo","your_forecast":"A sua previsão","estimated_profit":"Lucro","current_price":"Preço atual","diff":"Diferença","pips":"Pontos","pip":"Ponto","trade_q":"Negociação Rápida","trade_d":"Negociação Digital","trade_closed":"Ordem de transação encerrada","result_calc":"Cálculo dos resultados","no_data":"Sem dados","refunded":"A negociação foi cancelada.","availability":"Disponibilidade","trade_order_placed":"Posição de negociação efetuada","forecast":"Previsão","higher":"Comprar","lower":"Vender","amount":"Valor","new_amount":"Novo montante","add":"Adicionar","trades_closed":"Posições encerradas","total_payout":"Pagamento total","total_profit":"Lucro total","trade_closed2":"Posição encerrada","tooltip_text_win":"A sua previsão “%s” acabou sendo correta. Com um investimento de %s e um pagamento de %s, seu lucro líquido foi de %s. Quando a negociação foi fechada, o preço do ativo havia subido %s em %s pontos em relação ao preço de abertura.","tooltip_text_lose":"A sua previsão “%s” acabou sendo incorreta. O valor da negociação de %s foi deduzido de seu saldo. Quando a negociação foi fechada, o preço do ativo havia subido %s em %s pontos em relação ao preço de abertura.","tooltip_text_return":"A sua previsão “%s” acabou sendo incorreta. No entanto, quando a negociação foi fechada, o preço do ativo era igual ao preço de abertura. O valor da negociação de %s foi devolvido ao seu saldo.","tooltip_text_cancel":"Você cancelou sua negociação antes que ela fosse concluída. O valor da negociação de %s foi devolvido ao seu saldo.","up":"subir","down":"baixar","success_cancel_order":"Trade canceled","fail_cancel_order":"Anulação de erros","success_copy_order":"Negociação copiada","double_up":"Dobrar","rollover":"Rollover","expires_in":"Expira em","fail_rollover":"Rollover falhou","order":"Ordem"},"free_trades":{"label":"Ultrade","list_title":"Use o <span>Ultrade<\/span> agora mesmo","buy_list_title1":"Não há Ultrades no momento.","buy_list_title2":"Compre o <span>Ultrade<\/span> agora mesmo","gold_wrap_label":"Seu saldo de <span>Gold<\/span>:","category_name":"Negociação","tooltip1":"Com o Ultrade, os traders não usam seus próprios fundos: é só definir o valor do Ultrade.","tooltip2":"Se a negociação for bem-sucedida, o trader recebe o lucro líquido menos o valor nominal do Ultrade.","list_modal":{"sub_title":"Abra o Ultrade e receba lucro no saldo da sua conta","toggle_label":"Como funciona?","empty_trades1":"Não há Ultrades agora","empty_trades2":"Você pode comprar o Ultrade no Mercado","buy_title":"Compre o <span>Ultrade<\/span> agora mesmo","gold_balance":"Seu saldo de <span>Gold<\/span>:","buy_for":"Comprar por","level_required":"Nível {level} necessário","not_enough_funds":"Fundos insuficientes","market_btn":"Ir para o Mercado","regular_btn":"Para operação regular","apply_btn":"Continuar com o Ultrade","more_btn":"Comprar no Mercado"},"build_success_modal":{"title":"Você está operando com sucesso!","sub-title":"Garanta o seu sucesso!","text":"Financie sua conta com um bônus de <b>100%<\/b> e aumente seu potencial de ganhos com investimentos maiores.","text2":"Código promocional válido por 24 h.","btn_1":"Use o bônus","btn_2":"Recarregar sem bônus"},"dopamine_loop_modal":{"title":"A sorte está do seu lado!","sub-title":"Você adquiriu {count} Ultrade por {amount} cada!","text":"Use os Ultrades e lucre!","btn_1":"Usar Ultrade","btn_2":"Fechar"},"profit_block":{"tooltip":"O valor do pagamento que você receberá pela operação {profit} se o preço do ativo estiver acima ou abaixo de {current_price} após {time_until_expiration}."},"tooltip":{"tooltip_text_win":"Sua previsão %s acabou sendo correta. Quando Ultrade %s foi aberto com um pagamento de %s, seu lucro foi de %s. Quando a ordem foi fechada, o preço do ativo subiu %s em %s pontos em comparação com o preço de abertura","tooltip_text_lose":"Sua previsão %s estava incorreta. Quando a operação foi fechada, o preço do ativo havia mudado %s em %s pontos em relação ao preço de abertura.","tooltip_text_return":"Sua previsão %s estava incorreta. Quando a operação foi fechada, o preço do ativo era igual ao preço de abertura."},"limited_offer_modal":{"title":"Oferta especial","text":"Faça um depósito de {amount} entre 21 de agosto e 20 de setembro usando um dos métodos oferecidos e obtenha o Ultrade!","button":"Recarregar"},"limited_offer":{"unverified_block":"Verifique seu perfil e ganhe um presente Ultrade com este método de recarga!"}},"left_panel":{"trader_chat":"Chat","trader_chat_tooltip":"Chat de suporte técnico, chat de comerciantes e notificações"},"right_panel":{"full_screen":"Tela cheia","hotkeys":"Teclas “quentes\"","hotkeys_settings":"Ajustes de teclas “quentes\"","pending_order":"Pedido pendente","pending_bets":"Apostas pendentes","signals":"Sinais","signals_tooltip":"Siga aos sinais para realizar operações mais bem-sucedidas","social_trading_tooltip":"Você pode copiar comércios de outros trades de alto ranking","tournaments":"Torneios","tournaments_tooltip":"Torneios entre participantes da plataforma Junte-se já, aplique todas as forças e ganhe os prêmios espantadoras!","video_tutorial":"Aula de vídeo","video_tutorial_tooltip":"Veja a aula de vídeo para saber mais sobre Pocket Option","zoom":"Zoom","on_bonus":"Você possui bônus ativos","off_bonus":"Você não tem os bônus ativos","express_trades":"Comércio Express","express_bets":"Apostas expressas","express_tooltip":"Suas trades express e histórico","account":"Conta","platforms":"Plataformas","mt5_vs_mt4":"MT5 VS MT4","social":"Negociação Social"},"tournaments":{"PROGRESS":"Progresso","ALL_TOURNAMENTS":"Todos os Torneios","CURRENT":"Atual","FUTURE":"PrÓximos","STATISTICS":"Estatísticas","try_free":"Experimentar GRATUITAMENTE","brief_stat":"Estatísticas breves","win_cnt":"Torneios vencidos","total_prize":"prêmios totais em dinheiro","top_prize":"O maior prêmio","your_current":"Torneios correntes","no_contests":"Você não participa em torneio nenhum","see_contests":"Lista de torneios","prize_f":"Fundo de prêmios","till_the_end":"Termina em","go":"Ir ao torneio","continue":"Continuar","history":"Histórico","name":"Nome","finished":"Terminado","you_won":"Você ganhou $%s","pos":"Seu lugar é #%s","gratz":"Parabéns!","no_win":"Lamentamos, mas você não ganhou o prêmio neste torneio","waiting":"Aguardando resultados de concurso. Verifique o seu lugar dentro de um par de minutos.","t_history":"História de torneio","join_next":"Juntar-se a próximo torneio","take_prize":"Recolher o prêmio","trader_id":"Comerciante","result":"Resultado","prize":"Prêmio","join_free":"Participar GRATUITAMENTE","join":"Junte-se a nós","join_for":"Participar por %s","details":"Informação de torneio","rating":"Ranking","reg":"Registrar-se","rebuy":"Compra adicional","part_fee":"Taxa de participação","only_for_vip":"Somente para traders VIP","min_players":"Número mín. de participantes","users_cnt":"Participantes atuais","rebuy_fee":"Incrementar o saldo da conta de torneio","start_balance":"Saldo inicial","start":"Começar","finish":"Fim","starts":"Início","ends":"Término","duration":"Duração","time_left":"Restou o tempo","verif":"A verificação do perfil é necessária para se Registrar no torneio","cond":"Condições","tournament_regulations":"Regras do Torneio","goal":"Objetivo","prizes_to":"Os prêmios são distribuídos entre os participantes com o maior lucro no final do torneio","for_verify_title":"Os torneios estão disponíveis apenas para usuários verificados.","for_verify_sub-title":"Conclua a verificação do seu perfil.","verify":"Verificação completa","for_loyality_title":"Este torneio está aberto apenas para traders com nível de fidelidade Guru ou VIP.","loyality_link_text":"Programa de fidelidade","open_real":"Para participar em torneio, você terá que registrar-se em nossa empresa","real_acc_debited":"Ser-lhe-ão debitados {amount} pela participação no torneio (o saldo atual da sua conta Real é de {balance}). Clique no botão \"Confirmar participação\" para se inscrever no torneio.","free_tour":"A participação neste torneio é gratuita. Clicar no botão \"Confirmar participação\" para se Registrar no torneio.","click_confirm":"Clique o botão \"Confirmar participação\" para registrar-se em torneio","confirm_p":"Confirmar sua participação","not_avlb":"O torneio é apenas para traders com nível de fidelidade VIP","use_ticker":"Use o ticket","insuff_funds":"Não dispõe de fundos suficientes para participar. Tem de completar o saldo da sua conta Real no montante de {amount} para poder participar neste torneio.","succ_reg":"Está Registrado com sucesso no torneio","press_cont":"Utilize o botão Continuar para entrar na conta do torneio.","cont":"Continuar","before_rebuy_msg1":"Saldo real da conta","before_rebuy_msg2":"Balanço de torneio","before_rebuy_msg3":"Está prestes a pagar {amount} do saldo da sua conta Real para completar o saldo do Torneio por {balance}.","confirm_rebuy":"Confirme o incremento adicional de saldo de torneio","top_up_for_rebuy":"Tem de recarregar pelo menos {amount} no saldo da sua conta Real para poder participar neste torneio.","not_enough_for_rebuy":"Você não tem um saldo suficiente para compras em torneio.","disabled_rebuy":"Neste momento você não pode realizar o incremento de saldo da conta de torneio por razão seguinte","tour_balance_high":"Saldo da sua conta de torneio (%s) é demasiado alto","min_balance_for_rebuy":"Para ter a possibilidade de incrementar o saldo de torneio, o saldo atual da conta de torneio terá que ser inferior de %s","have_opened_bets":"Você já tem as comércios abertas. Aguarde, enquanto suas comércios forem encerradas.","to_start":"Começa em","not_available":"Infelizmente, a inscrição no torneio não está disponível neste momento.","your_position":"Sua posição","history_title":"História de torneio","cup_tooltip_text":"Está a participar neste torneio","waiting_room":"Sala de espera","refresh_time":"A avaliação é atualizada minuto a minuto.","detail_modal":{"title":"Torneio","text1":"Está a participar neste torneio","text10":"Saldo inicial","text11":"Sua posição","text12":"Mapa do Torneio","text13":"Atualizado em %s","you":"você"},"terms":{"t1":"Apenas os clientes verificados podem participar no torneio.","t2":"O torneio começa em condições de igualdade para todos os participantes, sendo o saldo inicial de %s.","t3":"O prêmio total garantido é {amount}. Os prêmios são distribuídos entre {number}de participantes com o maior lucro no final do torneio."},"paid_tournament_terms":{"t1":"É necessária uma taxa de participação de {amount} para criar uma conta no torneio.","t2":"O fundo do prêmio máximo não é limitado e depende do número de participantes e das compras de recompra; as %s das taxas reunidas de todos os participantes são distribuídas entre os vencedores sob a forma de um fundo de prêmios."},"free_tournament_terms":{"t1":"A participação é gratuita.","t3":"A verificação do perfil é necessária a fim de se inscrever no torneio."},"vip_tournament_terms":{"t1":"O torneio está disponível e aberto apenas para operadores com níveis de fidelidade VIP e VIP ELITE."},"tournaments_unavailable":"Torneios indisponíveis","participation":"Taxa de participação","free":"Gratuito","active_tournaments":"Torneios ativos","future_tournaments":"Torneios futuros","empty_tournaments_title":"Nenhum torneio encontrado","empty_tournaments_description":"Participe de pelo menos um torneio para exibir as estatísticas","participate_btn":"Participar","successful_toggle":"Mostrar apenas torneios bem-sucedidos"},"hotkeys":{"title":"Teclas “quentes\"","conf":"Configuração","higher":"Comprar","lower":"Vender","dec_bet":"Reduzir o valor máximo de comércio","inc_bet":"Aumentar o valor máximo de comércio","next_fav":"Ativo favorito seguinte","deactivate":"Desligar as teclas “quentes\"","activate":"Ligar as teclas “quentes\"","new_trade":"Nova transação","buy":"Comprar","decrease_bet_amount":"Reduzir o valor máximo de comércio","sell":"Venda","increase_bet_amount":"Aumentar o valor máximo de comércio","next_favorite_asset":"Ativo favorito seguinte","multigraph_tooltip":"Atenção: as teclas de atalho não estão disponíveis durante a utilização da vista multi-cartas."},"signals":{"click_red":"Clique no botão vermelho","click_red_button_now":"Clique no botão vermelho agora","click_green":"Clique no botão verde","click_green_button_now":"Clique no botão verde agora","await_strong_signal":"Aguardar sinal forte","buy_signal":"Tendência de crescimento","strong_buy_signal":"Tendência de crescimento ativa","sell_signal":"Tendência de baixa","strong_sell_signal":"Tendência de crescimento baixa","neutral_signal":"Sem previsão","period_30_second":"30 segundos","period_1_min":"1 minuto","period_2_min":"2 minutos","period_3_min":"3 minutos","period_5_min":"5 minutos","period_10_min":"10 minutos","period_15_min":"15 minutos","period_30_min":"30 minutos","period_45_min":"45 minutos","period_60_min":"1 hora","period_120_min":"2 horas","period_180_min":"3 horas","period_240_min":"4 horas","systems_signal":"Sinal de sistema","settings":{"systems_signal_text":"Aviso: Os sinais são baseados nos indicadores disponíveis na plataforma (por exemplo, SMA, Bandas de Bollinger) e não podem ser absolutamente precisos. Recomendamos fortemente o uso de sinais como um instrumento adicional, mas não como um instrumento auto-suficiente da análise técnica.","help":"A seta indica movimento provável do gráfico dentro do período de tempo {time}. Quanto mais setas, maior a possibilidade do movimento do gráfico para a direção especificada."},"information_title":"Ajuda","tg_info":"Um bot de sinal para o messenger Telegram fornece sinais gratuitos com a capacidade de realizar negociações automatizadas. Siga o link abaixo para ativar o bot","tg_start":"inscrever-se","tab_all":"Todos","tab_updates":"Atualizações","copy":"Copiar sinal","copied_times":"Copiado: %s vezes","just_now":"Há pouco","trade_opened":"Negociação aberta","signal_copy_desc":"Coloque uma negociação na quantidade de %s usando o sinal clicando no botão \"%s\".","sys-signal":"Sinal do sistema"},"social_trades":{"top_ranked":"Melhores operações","top_24h_ranked":"Melhores traders nas últimas 24 horas","top_24h_demo_notify":"O ranking de traders não está disponível nas contas Demo","switch_to_live":"Mudar para uma negociação real","demo_trading":"Trading Demo","live_trading":"Negociação real","online":"Conetado","offline":"Desconetado","min_ago":"%s minutos antes","no_top_deals":"Ranking TOP não existe","show_all":"Mostrar ranking completo","show_top_100":"Mostrar top 100","number_of_bets":"Número de comércios","profitable_deals":"Opções lucrativas","search":"Pesquisa","placeholder":"Introduza o ID do utilizador","not_found":"Sem dados","copied_list":"Lista de negociantes copiados","copy_on_demo":"Você não pode copias as comércios na conta Demo","empty_copied_traders_list":"Sua lista de traders a copiar está em blanco.","see_top_ranker_bets":"Ver os melhores traders","history":"Histórico","all_online":"Todos os estão conetados","all_offline":"Tudo em offline","time_ago_format":"%s dias %s horas %s minutos atrás","time_ago_format_short":"%s dias atrás","stopped_copy":"Você suspendeu a copia deste jogador %s","total_profit":"Lucro total","list_watched_players":"Lista de traders monitorizados","empty_watched_traders_list":"Sua lista de traders a monitorar está em blanco.","settings":"Definições","social_trading":"Exibir negócios sociais","whatchlisting_copied_bets":"Monitorar as comércios copiadas","hide_my_profile":"Ocultar cópias e estatísticas do meu perfil","hide_my_profile_watching":"Ocultar visualização das minhas negociações","show_only_watched_traders":"Mostrar apenas comerciantes vigiados","copy_prohibitions":"Proibições de cópia","top_100_traders":"Os 100 melhores negociantes","list_of_traders_who_copy_me":"Lista de comerciantes que me copiam","traders_who_copy_me":"Comerciantes que me copiam","blocked_traders":"Comerciantes bloqueados","disallow_copy_btn":"Cópia não permitida","allow_copy_btn":"Permitir cópia","list_of_traders_who_watch_me":"Lista de comerciantes que me observam","traders_who_watch_me":"Comerciantes que me observam","disallow_watch_btn":"Desautorizar relógio","blocked_watchers":"Observadores bloqueados","allow_watch_btn":"Permitir relógio","only_for_real":"Esta seção está disponível apenas para contas QT real. Alterne para a conta real para acessar essa seção."},"expresses":{"assets":"Ativos","select_assets":"Selecionar ativos","new":"Novo expresso","opened":"Aberto expressa","closed":"Fechado expressa","price":"Preço","expected_profit":"Lucro esperado","profit":"Lucro","s_created":"Expresso no valor de %s com um pagamento %s é criado com sucesso.","f_created":"Express não pode ser criado, tente novamente mais tarde.","s_closed":"O Express é completado com um lucro de %s.","total_payout":"Pagamento total","no_items":"Selecione pelo menos %s ativos para iniciar o modo expresso.","possible_profit":"Renta estimada","confirm":"Confirmar","confirming":"Confirmando","remove":"Remover","no_opened":"Não há negócios expressos abertos.","no_closed":"Não há negócios expressos fechados.","not_found":"Nada foi encontrado.","no_fav":"Não foram encontrados favoritos.","description_header":"Expressa como fazer.","description_content":"O comércio expresso é uma previsão composta baseada em vários eventos. Crie ordens expressas e lucre com previsões corretas com um pagamento de mais de 100%! Os pagamentos de todas as previsões dentro da ordem expressa são multiplicados, tornando assim possível obter um lucro muito maior em comparação com um uso separado de uma única previsão.","close":"Fechar","amount":"Valor","choose_assets":"Escolha os Ativos","low_balance":"As negociações expressas estão disponíveis a partir do nível de perfil %s.","create_new":"Criar novo expresso","open_time":"Tempo de abertura","close_time":"Tempo de fechamento","open_price":"Preço aberto","close_price":"Preço de fechamento","current_price":"Preço atual","express":"Express","currency":"Moeda","commodity":"Commodities","stock":"Ações","favorites":"Favoritos","search":"Pesquisa","help":"Ajuda","deals":"Negociações","howto-title":"Expressa Como-Fazer","howto-desc":"O comércio expresso é uma previsão composta baseada em vários eventos. Crie ordens expressas e lucre com previsões corretas com um pagamento de mais de 100%! Os pagamentos de todas as previsões dentro da ordem expressa são multiplicados, tornando assim possível obter um lucro muito maior em comparação com um uso separado de uma única previsão."},"user_levels":{"demo":"Demo","beginner":"Principiante","acquire_level":"Adquirir o nível de perfil","0":"Principiante","1":"Principiante","2":"Mestre","3":"Guru","4":"VIP","5":"VIP Elite"},"indicators":{"smoothing_period":"Período de alisamento","edit":"Processar opções","remove":"Remova o indicador","ac":"Accelerator Oscillator","ao":"Awesome Oscillator","macd":"MACD","rsi":"RSI","so":"Stochastic Oscillator","adx":"ADX","roc":"Rate of Change","aro":"Aroon","cci":"CCI","dem":"DeMarker","adx_smoothing":"ADX Alisamento","di_length":"DI Comprimento","will":"Williams %R","bup":"Bulls Power","bep":"Bears Power","mom":"Momentum","vor":"Vortex","expand":"Expandir","collapse":"Colapso","ma":"Moving Average","bb":"Bollinger Bands","dc":"Donchian Channel","bbw":"Bollinger Bands Width","all":"Alligator","fra":"Fractal","fcb":"Fractal Chaos Bands","sar":"SAR parabólico","zz":"ZigZag","env":"Envelopes","icc":"Ichimoku Kinko Hyo","kch":"Keltner Channel","sut":"SuperTrend","osma":"OsMA","atr":"Average True Range","all_ind":"Todos","current":"Atual","inputs":"Entradas","styles":"Estilos","jaws_per":"Período das mandíbulas","jaws_sh":"Deslocamento das mandíbulas","teeth_per":"Período Dentário","teeth_sh":"Deslocamento dos dentes","lips_per":"Período dos Lábios","lips_sh":"Deslocamento de Navios","period_short":"Período Curto","period_long":"Período Longo","deviation":"Declinação","multiplier":"Multiplicador","fast_period":"Período rápido","slow_period":"Período lento","signal_period":"Período de sinal","acceleration":"Aceleração","max_acceleration":"Aceleração máxima","depth":"Profundidade","backstep":"Retrocesso","line_color":"Cor da linha","line_width":"Largura da linha","opacity":"Opacidade","figure":"Figura","src":"Fonte","stc":"Schaff Trend Cycle","fast_len":"Duração rápida","slow_len":"Duração lenta","cycle_len":"Duração do ciclo","d_macd_len":"%D (MACD) Comprimento","d_pf_len":"%D (PF) Duração","remove_all":"Tem a certeza de que quer remover todos os indicadores e desenhos da sua interface de negociação?","vol":"Volume","volume_ma":"Volume MA"},"drawings":{"pitchfork":"Andrew's Pitchfork","horizontal-line":"Linha horizontal","vertical-line":"Linha vertical","ray":"Raio","fibonacci-retracement":"Retraimento de Fibonacci","fibonacci-fan":"Ventilador Fibonacci","trend-line":"Linha de tendência","parallel-channel":"Canal Paralelo","rectangle":"Rectângulo","delete_all":"Deletar tudo","all":"Todos","current":"Atual","delete":"Deletar","line_main":"Linha Principal","line_bg":"Antecedentes","line_median":"Mediana","levels":"Níveis","levels_values":"Valores","levels_percents":"Percentagens","histogram":"Histograma","median":"Mediana"},"control_panel":{"bid_amount":"Valor","trade":"Negociação","change_btn_pos":"Alterar posição dos botões","time_to_purchase":"Hora","trade_panel_pos":"Posição do painel de comércio","trade_panel_min":"Esconder painel de negociação","trade_panel_max":"Mostrar painel de negociação","tournament":"Torneio","your_position":"Sua posição","time_until_end":"Tempo restante até o fim","higher":"comprar","lower":"vender","market_watch":{"tooltip":"A direcção de todas as negociações actualmente abertas colocadas pelos utilizadores da plataforma para o ativo no gráfico"},"screen_size":"Tamanho do ecrã","screen_size_tooltip":"Mostrar a escala desejada no ecrã (muda o intervalo da vela)","estimated-profit-block-tooltip":"O montante de ganhos que recebe por uma {amount} negociação com um pagamento {payout}, se o preço do ativo for superior ou inferior a {current_price} após {time_until_expiration}.","buy":"Comprar","sell":"Vender","auto_offset":"Compensação de tempo automática","auto_offset_tooltip":"Extensão automática do tempo de expiração pelo offset indicado."},"left-icon":{"analytics-tooltip":"Análise e agenda económica","signals-for":"Sinal para %s","promocode":"Código promocional","activated":"Ativada","deposit-amount":"Montante de depósito","bonus-amount":"Valor de bônus","execution":"Recuperação","remaining":"Valor restante de comércios","remove-bonus":"Cancelar bônus","bonuses":"Bônus","back":"Voltar","hide_indicator":"Ocultar o indicador","no_active_bonus":"Você não tem os bônus ativos. Peça agora mesmo!","get_bonus":"Bônus 100% sobre depósito","on_off_indicator":"Pode ativar\/desativar este indicador nas definições da plataforma.","warning":"Aviso","turn_off":"Desativar","date_of_exp":"Data de expiração","xp_per_bet":"XP a 1 comércio","total_xp":"Total XP","boosters_xp":"XP de busters","purchase_more":"Comprar mais","purchase":"Comprar","up_to":"Até %d","asset-info-tooltip":"Informação sobre bens"},"window_layout":{"chart_1":"1 Gráfico","charts":"Gráficos em %s"},"analytics-modal":{"download_apk":"Descarregar APK","calendar":"Agenda","analytics":"Análise","apps":"Anexos","current_date":"Data","current_time":"Hora atual","today":"Hoje","tomorrow":"Amanhã","show_actual":"Mostrar os eventos atuais","time":"Hora","time_left":"Restou o tempo","event":"Evento","prev":"Anterior","forecast":"Previsão","actual":"Atual","no-events":"Sem eventos","date":"Data","asset":"Ativo","type":"Tipo","tf":"Tempo Gráfico","desc":"Descrição","priority":"Prioridade","country":"País","scenario":"Cenário","alt_scenario":"Cenário alternativo","recommend":"Recomendação","entry_point":"Ponto de entrada","tp":"Obtenção de lucro","sl":"Limite de perdas","kl":"Níveis-chave","analys_desc":"Acesse um conjunto amplo de materiais analíticos atualizados para o mercado de negociação, disponível 24\/7 em seu dispositivo Android. Baixe o aplicativo móvel de análise de negociação para receber diariamente análises técnicas, fundamentais e de ondas, bem como previsões e revisões de indicadores macroeconômicos.","get_from":"Carregue em","available_at":"Disponível em","signals_title":"Sinais para os mercados financeiros","signals_desc":"As recomendações comerciais para abrir posições com atuais pontos de entrada e saída intra-diárias e adequadas para o trading de médio prazo. Baixe o aplicativo \"Sinais para mercados financeiros\" para celulares e obtenha sugestões para operar 24 horas por dia.","strateg_title":"Estratégias de negociação para mercados financeiros","strateg_desc":"A maior biblioteca de estratégias de negociação cuidadosamente selecionadas, que é constantemente atualizada. Reunimos as melhores estratégias de negociação de todo o mundo e elas estão disponíveis no aplicativo móvel para Android de forma totalmente gratuita."},"build_success_no_promo_modal":{"title":"Você está operando com sucesso!","sub_title":"Garanta o seu sucesso!","text":"Deposite fundos em sua conta para aumentar seu potencial de ganhos por meio de investimentos maiores.","btn":"Recarregar"},"purchase_success_modal":{"title":"Tudo pronto!","text":"{title} foram creditados na sua conta. Você já pode utilizá-los para abrir negociações.","btn":"Entendi"},"mt5":{"install":"Instalar","download":"Baixar","install_guide":"Guia de instalação","account_info":"Informação da conta","change_leverage":"Alterar a alavancagem","change_password":"Alterar senha","change_investor_password":"Alterar senha do investidor","login":"Entrar","server":"Servidor","leverage":"Alavancagem","currency":"Moeda","balance":"Saldo","credit":"Crédito","for_windows":"Para Windows","for_ios":"Para IOS","for_android":"Para Android","for_macos":"Para MacOS","for_linux":"Para Linux","for_web":"Para Web","change_password_complex":"A senha deve ser complexa: mínimo de 8 caracteres com pelo menos duas das seguintes três opções: letras maiúsculas e minúsculas, letras minúsculas e dígitos.","enter_new_pass":"Digite uma nova senha","cubes_tooltip":"MetaTrader 5 plataformas de negociação para qualquer dispositivo","trade_history_tooltip":"Histórico de negociação de contas MetaTrader 5 %s","account_tooltip":"MetaTrader 5 %s informação da conta","mt5_vs_mt4_tooltip":"Comparação de MetaTrader 5 e MetaTrader 4","buy":"Comprar","sell":"Venda","spread":"Spread","pts":"Pontos","history":{"icon_label":"Histórico de negociação","tooltip":"MT5_HISTORY_MODAL","title":"Histórico de negociação","full_link":"Histórico completo"},"deal":{"order":"Negociação","open_date":"Data de abertura","open_price":"Preço de abertura","close_date":"Data de fechamento","close_price":"Preço de fecho","swap":"Swap","commission":"Comissões","total":"Total","profit":"Lucro","current_price":"Preço atual"},"pending":{"title":"Negociações pendentes","full_link":"Exibir histórico de negociação"},"positions":{"title":"Negociações"},"modals":{"close_order":"Fechamento da negociação","close_position":"Fechamento da negociação","btn_cancel":"Cancelar","btn_close_order":"Fechar negociação","btn_close_position":"Fechar negociação"},"schedule":{"nw":"Não está funcionando","day0":"Domingo","day1":"Segunda-feira","day2":"Terça-feira","day3":"Quarta-feira","day4":"Quinta-feira","day5":"Sexta-feira","day6":"Sábado"},"asset-info":{"title":"Informação patrimonial","general":"Informação geral","extra":"Informação adicional","schedule":"Horário","label":"Nome","type":"Categoria","quote-currency":"Moeda de cotação","leverage":"Alavancagem","contract-size":"1 tamanho do lote","min-vol":"Volume mínimo","max-vol":"Volume máximo","swap-long":"Comprar swap","swap-short":"Vender swap","swap-3d":"Dia de triplo swap"}},"market-watch-modal":{"title":"Sentimento do mercado","text1":"A escala de sentimento do mercado reflete a direção geral de todas as negociações abertas pelos traders na plataforma para o ativo de negociação selecionado.","text2":"Você pode ativar ou desativar a escala de sentimento do mercado no gráfico de negociação ou no menu configurações.","toggle":"Não exibir esta mensagem novamente","btn_hide":"Ocultar indicador","btn_continue":"Continuar"},"pending":{"title":"Pedido pendente","tab_by_time":"Para quando","tab_by_time_desc":"Faça um pedido no horário indicado","tab_by_price":"Pelo preço do ativo","tab_by_price_short":"Pelo Preço","tab_by_price_desc":"Faça um pedido ao preço do ativo indicado","tab_current":"Atual","tab_current_desc":"Todos os pedidos pendentes","time_title":"Colocação do pedido ao atingir o tempo indicado","price_title":"Colocação do pedido ao atingir o preço do ativo indicado","form_asset":"Ativo","form_open_time":"Tempo de abertura","form_open_price":"Preço aberto","form_current_price":"Preço atual","form_timeframe":"Tempo Gráfico","form_amount":"Valor","form_payout":"Pagamentos","form_from":"De","form_info":"Seu saldo deve ser suficiente no momento de fazer um pedido. A taxa de pagamento real será aplicada no momento da colocação de um pedido.","form_more_btn":"Mais informações","form_back_btn":"Voltar","form_more_title":"Quais são as ordens pendentes?","form_more_1":"O mecanismo de ordens pendentes permite que você crie um contrato com um atraso de tempo ou quando o ativo atinge um determinado nível de preço. Na verdade, esse é o seu pedido de contrato para a compra ou venda de uma transação quando os parâmetros indicados são atingidos.","form_more_2":"A ordem é válida para uma sessão de operações. A duração máxima do pedido é de 7 dias. Você pode cancelar o pedido a qualquer momento antes de sua abertura sem perder os fundos fornecidos para este pedido.","created_by_price":"Pedidos pendentes pelo preço do ativo criado com sucesso","created_by_time":"A comércio para o tempo criado com sucesso é adiada","tab_current_title":"Pedidos em andamento","no_current":"Não há pedidos pendentes","asset":"Ativo","open_time":"Tempo de abertura","price":"Preço","min_payout":"Pagamento mínimo","timeframe":"Tempo Gráfico","amount":"Valor","success_cancel":"A ordem pendente é cancelada","fail_cancel":"Erro de cancelamento de ordem pendente","fail_create":"Erro de criação de ordem pendente","success_created":"Ordem pendente foi colocada","error_bad_payout":"O pagamento deve ser de %s a %s","error_bad_open_time":"Horário de abertura de 1 minuto a 1 semana","error_bad_open_price":"Preço aberto incorreto","error_bad_command":"Comando desconhecido","error_bad_timeframe":"Prazo desconhecido","error_bad_open_type":"Tipo de abertura desconhecido"},"btn":{"edit":"Trocar","close":"fechado"},"deposit":{"notification":{"title":"Notificação de depósito","ok_btn":"Continuar","cancel_btn":"Cancelar"}},"date_range_picker":{"all-time":"Todo o período","today":"Hoje","yesterday":"Ontem","last-7-days":"Últimos 7 dias","last-30-days":"Últimos 30 dias","this-month":"Mês atual","last-month":"Mês anterior","from":"de","to":"a","custom-range":"Faixa de personalização","range":"Faixa"},"support":{"duplicate_id":"Duplicar item"},"profile":{"change_password":"Alterar senha","confirm":"Confirmar","cancel":"Cancelar","less_than_18":"Infelizmente, não podemos prestar serviços a clientes com menos de 18 anos de idade."},"security":{"active":"ativo","inactive":"inativo","first-activate-type-secure":"Por favor, escolha e active primeiro o tipo de autenticação de dois factores."},"months":["Jan","Fev","Mar","Abr","Maio","Jun","Jul","Ago","Set","Out","Nov","Dez"],"modals":{"trader-information-modal":{"unlimited":"Ilimitado","unknown-error":"Erro desconhecido","copy-unlimited":"O valor máximo da negociação copiada depende do nível do programa de fidelidade de sua conta."},"fast-deposit-modal":{"promocode_is_applied":"O código promocional é aplicado","promocode_not_applicable":"Código promocional não aplicável"},"t-ranking":{"title":"Ranking em tempo real","earn":"Você terá que ganhar pelo menos %s para ocupar um lugar premiado.","player":"Participante","trader":"Comerciante","result":"Lucro","result2":"Resultado","prize":"Prêmio","full":"Mostrar ranking completo","you":"Você"},"welcome":{"title":"Bem-vindo à plataforma de negociação de vanguarda!","demo_title":"Conta demo","demo_desc":"Experimente todos os benefícios da plataforma na conta Demo utilizando dinheiro virtual. Não é necessário investimento, não há riscos envolvidos.","demo_link":"Negociação versão Demo","safe_title":"Meu cofre","safe_desc":"Obtenha um elevado rendimento passivo mensal! Investimento mínimo, pagamentos garantidos.","safe_link":"Abra um cofre","guide_title":"Como começar a ganhar dinheiro real?","guide_desc":"Comece a ganhar dinheiro real através da negociação nos mercados financeiros! O nível de rendimento não é limitado.","guide_link":"Guia de introdução"},"intro-guide":{"title":"Como começar a ganhar dinheiro real?","sub_title":"A sua tarefa é antecipar o movimento do preço de mercado do bem dentro de 1 minuto (ou qualquer outro período de tempo indicado) e colocar a sua previsão.","block_title":"O que é que precisa para ganhar?","icon_1_desc":"Sua atenção ao gráfico de preço","icon_2_desc":"Vontade a ganhar","icon_3_desc":"Invista e obtenha lucros reais","trading_now":"Em apenas 1 minuto as pessoas colocaram uma posição pelo montante total de %s gerando um lucro total de %s durante este minuto.","start_trading":"Começar a operar","place_trade_desc":"Um manual de introdução simples irá guiá-lo sobre como obter lucros em apenas <span>1 minuto!<\/span>","place_trade_action":"Como colocar uma negociação","step":"Passo","step_1_title":"Como colocar uma posição?","step_1_desc_1":"Veja o gráfico e repare no movimento de preços.","step_1_desc_2":"Tente antecipar a direção do preço do ativo dentro do período de tempo estabelecido.","step_2_title":"Como colocar uma posição?","step_2_desc":"Se achar que o preço será mais alto do que o atual no tempo de expiração, pressione o botão verde (mais alto) ou use o botão vermelho (mais baixo) se achar que o preço irá diminuir. O tempo de expiração e o montante da transação podem ser ajustados em conformidade. Quanto maior for o montante da sua transação - maior poderá ser o seu ganho!","step_3_title":"Como colocar uma posição?","step_3_desc_1":"Habilitar sinais automáticos para uma negociação mais bem-sucedida.","step_3_desc_2":"Explore as estratégias <a href=\"%s\">de negociação disponíveis<\/a> e verifique o <a href=\"%s\">guia da platforma<\/a>.","step_4_title":"Como colocar uma posição?","step_4_desc":"Navegue através da sua atividade de negociação. Veja a lista das suas negociações ativas, bem como o histórico de ordens fechadas para a sessão de negociação atual.","step_5_title":"Como colocar uma posição?","step_5_desc_1":"Já pensou num rendimento passivo? Consulte a funcionalidade de negociação social para definir a cópia automática dos Negociantes Pró.","step_5_desc_2":"As definições de cópia podem ser alteradas para se adequarem ao seu orçamento.","step_5_desc_3":"Desejamos-lhe sinceramente sucesso na sua negociação e rendimentos decentes!","open_social":"Negociação Social Aberta","continue_demo":"Continuar a negociação na conta Demo","register":"Registrar-se"},"first-fail":{"title":"Sinais","desc":"Por favor, conheça o painel de sinais de trading para poder tomar as decisões mais eficazes, quando escolhe uma opção. Este instrumento poderá ajudar-lhe aumentar rentabilidade do trading!","action":"Começar utilizar os sinais"},"need-deposit":{"title":"Carregue a sua conta","your_balance":"O seu saldo: {amount}","amount":"Valor da transação","deposit":"Recarregar conta","desc":"O montante do saldo não é suficiente para um montante mínimo de negociação. Aumente o seu saldo de demonstração para continuar a negociar."},"good-job":{"title":"Bom trabalho","sub_title":"Não perca a oportunidade para obter um lucro real!","invest":"Investir dinheiro efetivo","continue":"Continuar trading na conta Demo"},"only-for-register":{"desc":"Esta seção está disponível apenas para usuários cadastrados. Complete o cadastro da conta para começar a negociar e ganhar dinheiro real.","continue":"Continuar trading na conta Demo","reg":"Registrar-se","sign_in":"Entrar"},"insurance":{"title":"Você selecionou Seguro de Depósito.","text1":"No momento, estamos testando a demanda por este serviço entre traders, portanto, ele ainda não está disponível para ativação. A quantia total do seu pagamento, incluindo o custo do seguro, foi creditada em seu saldo de negociação.","text2":"Assim que o Seguro de Depósito estiver disponível, você receberá uma notificação e poderá ativá-lo ao fazer seu próximo depósito.","btn":"Entendi"}},"mobile_right_nav":{"trades":"Transacões","signals":"Sinais","social":"Negociação Social","expresses":"Comércio Express","tournaments":"Torneios","rating":"Ranking","pending":"Pedido pendente"},"mobile_bottom_nav":{"pro_mode":"Pro mode","classic_mode":"Classic mode"},"notifications":{"express_created":"Expresso criado","express_executed":"Expresso executado"},"my_safe":{"date":"Data","monthly_income":"Rendimento mensal","balance":"Saldo"},"daily_safe":{"calculator":{"and":"e","one-day":"dia","few-days":"dias","many-days":"dias","one-month":"mês","few-months":"meses","many-months":"meses","benefit_prefix":"Você terá em"},"modals":{"top_up_safe":"Recarregar o Cofre com {amount}","welcome":{"title":"Novos Cofres","features":"Agradecemos por utilizar a Pocket Option e todos os recursos da plataforma!","info":"Agora o seu dinheiro rende mais. Reembolsamos sua conta para que você possa escolher novos termos e aproveitar ao máximo suas economias.","team":"Equipe Pocket Option","action":"Ir para os novos Cofres"}}},"price_alert":{"reached":"Nível de preço alcançado","level":"Nível de preço","max_alerts_reached":"Há um número excessivo de alertas de preço aberto; o máximo é %s por ativo."},"amount_limit":{"settings_title":"Limitar o valor da negociação","settings_btn":"Limite do valor da negociação","title":"Configurar o limite do valor da negociação","tooltip":"Habilitar a configuração para limitar o valor máximo de negociação.","limit_error":"O valor da negociação %s excede o limite %s que você definiu.","enabled":"O limite do valor da negociação está ativado: %s.","disabled":"O limite de valor para a negociação está desativado."},"available_text":"Esta seção está disponível apenas para contas reais","trading_panel":{"calculator":{"title":"Calculadora"},"history_of_trades":{"title":"Histórico de operações","tooltip":"Veja suas operações recentes concluídas."}},"additional_service":{"deposit":"Recarregar saldo","ultrade":"Ultrade","insurance":"Seguro","v2":{"apply_btn":"Adicionar ao depósito","remove_btn":"Remover","one_time_purchase":"Compra única"}},"pocket_pass":{"modal":{"welcome":{"title":"Pocket Pass","sub_title":"Novo evento! Conclua desafios, ganhe estrelas e desbloqueie recompensas incríveis.","btn":"Vamos lá!"},"finished":{"title":"O Pocket Pass está encerrado","sub_title":"Agradecemos sua participação! Suas recompensas não resgatadas estão disponíveis no Mercado.","market_btn":"Ir para o Mercado","btn":"Entendi"}}},"ai_app_mode_modal":{"title":"Modo de negociação","text_mode":"Experimente o modo de negociação completo com suas próprias estratégias, indicadores e análises em tempo real.","text_switch":"Mude agora e negocie nas suas condições.","info":"Você pode alternar entre os modos nas Configurações a qualquer momento.","close_btn":"Manter o modo AI","pro_mode_btn":"Pro mode"},"trading_modes":{"classic":"Classic mode","pro":"Pro mode","ai":"AI mode","ai_trader":"AI Trader"},"ai_strategy":{"deals_control":{"title":"Número de negociações"},"amount_control":{"title":"Valor inicial"},"strategy_control":{"title":"Estratégia"},"strategies":{"fixed":"Fixed Amount","martingale":"Martingale","antimartingale":"Anti-Martingale","parlay":"Parlay","fibonacci":"Fibonacci"},"counter":{"label":"Série de negociações com a estratégia"},"sessions":{"tabs":{"opened":"Aberto","closed":"Fechado","how_to_use":"Como usar"},"new":"Novo","actions":{"stop":"Parar","discard":"Descartar","confirm_stop":"Confirmar interrupção"},"labels":{"starting_amount":"Valor inicial","trading_turnover":"Volume de negócios","profit":"Lucro"},"status":{"closed_with_error":"Fechado com erro: {error}","stopped_by_user":"Série interrompida pelo usuário","finished":"Série concluída","stopping":"Fechamento","live":"A série está em andamento"}},"empty_block":{"empty_open":"Nenhuma série de negociações ativa","empty_close":"Nenhuma série de negociações fechada"},"progress_block":{"title":"Progresso","trade":"Negociação","start":"Começar","stop":"Parar","add":"Adicionar","stop_all":"Parar tudo","starting":"Iniciando...","stopping":"Parando...","start_info":"O sistema de IA analisa o mercado e abre negociações automaticamente.","waiting":"Aguardando","end_info":"Aguarde o fechamento da negociação atual."},"how_to_use":{"title":"Nossas estratégias:","example":"Exemplo:","main_text":["Escolha uma estratégia, o valor inicial e o número de negociações na série.","Selecione Iniciar para começar. A série terminará automaticamente quando o número definido de negociações for concluído, ou você pode interrompê-la manualmente selecionando Parar."],"strategies":[{"title":"Fixed Amount","description":"Adequado para negociação conservadora e testes.","text":"Cada negociação é aberta com o mesmo valor, independentemente dos resultados anteriores.","line":"$10 → win → $10 → win → $10 → loss → $10"},{"title":"Martingale","description":"Uma estratégia agressiva de alto risco projetada para recuperar perdas rapidamente.","text":"Após uma perda, o valor da negociação seguinte dobra na tentativa de recuperar a perda e gerar lucro na próxima negociação bem-sucedida. Após uma vitória, o valor retorna ao valor inicial.","line":"$10 → loss → $20 → loss → $40 → loss → $80 → win → $10"},{"title":"Anti-Martingale","description":"Adequado para aproveitar sequências de vitórias durante uma tendência.","text":"Após uma vitória, o valor da negociação dobra. Após uma perda, ele retorna ao valor inicial.","line":"$10 → win → $20 → win → $40 → loss → $10"},{"title":"Parlay","description":"Uma versão menos agressiva da Anti-Martingale que oferece maior controle sobre o valor da negociação.","text":"O lucro de cada negociação bem-sucedida é adicionado ao valor da negociação seguinte, reinvestindo efetivamente os retornos. Após uma perda, o valor retorna ao valor inicial.","line":"$10 → win$9 → bet$19 → win$17 → bet$36 → loss → back to $10"},{"title":"Fibonacci","description":"Oferece uma progressão mais equilibrada e é menos agressiva que a Martingale.","text":"Usa a sequência 1, 1, 2, 3, 5, 8, e assim por diante. Após uma perda, a estratégia avança para o próximo passo. Após uma vitória, retrocede dois passos.","line":"$10 → loss → $10 → loss → $20 → win → $10 → win → $10 → loss → $10 → win → $10 → win → $10 → win → $10 → win → $10"}]},"errors":{"default":"O AI Trader encontrou um erro. Tente novamente.","account_not_found":"Conta não encontrada","asset_not_available":"Ativo indisponível","trading_disabled":"Negociação indisponível","asset_restricted_with_symbol":"O ativo {symbol} está restrito","asset_restricted":"Ativo restrito","min_trade_amount":"O valor da negociação deve ser no mínimo USD {amount}","trade_amount_too_small":"O valor da negociação é muito baixo","max_trade_amount":"O valor da negociação excede o limite de {amount}","trade_amount_too_large":"O valor da negociação excede o limite","validation":"Erro de validação","invalid_deals_count":"O número de negociações deve estar entre 2 e {max}","not_enough_funds":"Fundos insuficientes","running_limit_reached":"O limite da série do AI Trader foi atingido","service_not_ready":"O AI Trader está indisponível","session_not_found":"Nenhuma série do AI Trader encontrada"},"notifications":{"label":"AI Trader","all_trades_closed":"Todas as negociações {label} foram encerradas","order_placed":"Ordem {label} colocada","trade_closed":"Negociação {label} encerrada"}}});
+</script>
+<div class="left-sidebar-menu" data-id="support">
+    <ul class="left-sidebar-menu__list">
+                                    <li>
+                <a class="left-sidebar-menu__link" href="https://po.trade/pt/cabinet/platform-guide/" data-layout='{"event":"gtm_events","ga4_event_name":"help__guides_and_tutorials"}'>
+                    <div class="lsm-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.5 2.20022C18.722 2.20022 18.9286 2.19916 19.1016 2.21096C19.2817 2.22325 19.483 2.25188 19.6885 2.33694C20.1295 2.51963 20.4804 2.8705 20.6631 3.31155C20.7481 3.51703 20.7768 3.71838 20.7891 3.89846C20.8009 4.07144 20.7998 4.27804 20.7998 4.50002V20C20.7998 20.9941 19.9941 21.7998 19 21.7998H6C4.4536 21.7998 3.2002 20.5464 3.2002 19V7.50002C3.2002 6.81207 3.19964 6.25565 3.23047 5.80374C3.2618 5.34482 3.32804 4.93517 3.48926 4.54592C3.87494 3.61482 4.6148 2.87496 5.5459 2.48928C5.93515 2.32806 6.34479 2.26183 6.80371 2.23049C7.25563 2.19966 7.81203 2.20022 8.5 2.20022H18.5ZM6 17.7998C5.33727 17.7998 4.79982 18.3373 4.79981 19C4.79981 19.6628 5.33726 20.2002 6 20.2002H19C19.1105 20.2002 19.2002 20.1105 19.2002 20V17.7998H6ZM8.5 3.79983C7.79018 3.79983 7.2979 3.80092 6.91309 3.82717C6.53545 3.85294 6.32013 3.90073 6.1582 3.9678C5.61916 4.19108 5.19106 4.61919 4.96777 5.15823C4.9007 5.32016 4.85292 5.53548 4.82715 5.91311C4.8009 6.29792 4.79981 6.79022 4.79981 7.50002V16.4727C5.16383 16.2995 5.57003 16.2002 6 16.2002H19.2002V4.50002C19.2002 4.25612 19.1996 4.11277 19.1924 4.00686C19.1857 3.90862 19.1756 3.90207 19.1846 3.92385C19.1643 3.87485 19.1252 3.83575 19.0762 3.81545C19.098 3.82449 19.0915 3.81438 18.9932 3.80764C18.8873 3.80042 18.7439 3.79983 18.5 3.79983H8.5ZM12 9.20022C12.4418 9.20022 12.7998 9.55821 12.7998 10V14C12.7998 14.4419 12.4418 14.7998 12 14.7998C11.5582 14.7998 11.2002 14.4419 11.2002 14V10C11.2002 9.55821 11.5582 9.20022 12 9.20022ZM12 5.50002C12.1858 5.50002 12.2789 5.50003 12.3564 5.5137C12.7289 5.57948 13.0203 5.87164 13.0859 6.24416C13.0995 6.32158 13.0996 6.41435 13.0996 6.59963C13.0996 6.7853 13.0996 6.87858 13.0859 6.95608C13.0203 7.32861 12.7289 7.62077 12.3564 7.68655C12.2789 7.70022 12.1858 7.70022 12 7.70022C11.8142 7.70022 11.7211 7.70022 11.6436 7.68655C11.271 7.62083 10.9798 7.32868 10.9141 6.95608C10.9004 6.87857 10.9004 6.78533 10.9004 6.59963C10.9004 6.41433 10.9005 6.32159 10.9141 6.24416C10.9798 5.87157 11.271 5.57942 11.6436 5.5137C11.7211 5.50002 11.8142 5.50002 12 5.50002Z" fill="currentColor"/>
+</svg>
+                    </div>
+                    <span>Guias e Tutoriais</span>
+                </a>
+            </li>
+                        <li>
+            <a class="left-sidebar-menu__link" href="https://po.trade/pt/reviews/" data-layout='{"event":"gtm_events","ga4_event_name":"help__reviews"}'>
+                <div class="lsm-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8896 5.21973C13.8896 4.49442 13.2336 3.79991 12.2881 3.7998C12.2788 3.7998 12.2718 3.80208 12.2676 3.80371L8.84863 10.9121C8.79875 11.0158 8.73823 11.1114 8.6709 11.2002V20.2002H18.0273C19.1253 20.2002 19.9792 19.4663 20.127 18.5791L21.1758 12.2793C21.3548 11.204 20.4504 10.0998 19.0771 10.0996H15.6641C14.7452 10.0995 13.8899 9.39749 13.8896 8.40039V5.21973ZM3.7998 19.2002C3.79992 19.6939 4.25335 20.2001 4.94824 20.2002H7.07129V11.9004H4.94824C4.25326 11.9004 3.7998 12.4066 3.7998 12.9004V19.2002ZM15.4902 8.40039C15.4903 8.40684 15.492 8.42472 15.5186 8.44922C15.5467 8.47507 15.5962 8.49997 15.6641 8.5H19.0771C21.286 8.50016 23.1205 10.3463 22.7549 12.542L21.7051 18.8418C21.4141 20.5889 19.8144 21.7998 18.0273 21.7998H4.94824C3.49131 21.7998 2.20031 20.6945 2.2002 19.2002V12.9004C2.2002 11.406 3.49125 10.2999 4.94824 10.2998H7.2373C7.3411 10.2998 7.39515 10.2438 7.40723 10.2188L10.835 3.09277L10.8896 2.98926C11.1805 2.48607 11.7277 2.2002 12.2881 2.2002C13.9957 2.2003 15.4902 3.49384 15.4902 5.21973V8.40039Z" fill="currentColor"/>
+</svg>
+                </div>
+                <span>Comentários</span>
+            </a>
+        </li>
+                                    <li>
+                <a class="left-sidebar-menu__link" href="https://po.trade/pt/cabinet/applications/" data-layout='{"event":"gtm_events","ga4_event_name":"help__apps"}'>
+                    <div class="lsm-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.9498 1.25C14.4975 1.25 14.9537 1.24898 15.3248 1.2793C15.7045 1.31033 16.0609 1.3781 16.398 1.54981C16.9155 1.81346 17.3365 2.23452 17.6002 2.75196C17.788 3.12097 17.641 3.57275 17.2721 3.76075C16.9031 3.94838 16.4512 3.80151 16.2633 3.43262C16.1435 3.19751 15.9525 3.00655 15.7174 2.88672C15.6268 2.84059 15.4897 2.79788 15.2027 2.77442C14.9069 2.75024 14.5222 2.75 13.9498 2.75H6.35019C5.77777 2.75 5.39314 2.75024 5.09726 2.77442C4.81027 2.79788 4.67316 2.84059 4.58262 2.88672C4.3475 3.00655 4.15654 3.19751 4.03672 3.43262C3.99058 3.52316 3.94787 3.66028 3.92441 3.94727C3.90024 4.24315 3.9 4.62778 3.9 5.2002V18.7998C3.9 19.3722 3.90024 19.7569 3.92441 20.0527C3.94787 20.3397 3.99059 20.4768 4.03672 20.5674C4.15654 20.8025 4.3475 20.9935 4.58262 21.1133C4.67316 21.1594 4.81027 21.2021 5.09726 21.2256C5.39314 21.2498 5.77777 21.25 6.35019 21.25H13.9498C14.5222 21.25 14.9069 21.2498 15.2027 21.2256C15.4897 21.2021 15.6268 21.1594 15.7174 21.1133C15.9525 20.9935 16.1435 20.8025 16.2633 20.5674C16.3094 20.4768 16.3521 20.3397 16.3756 20.0527C16.3998 19.7569 16.4 19.3722 16.4 18.7998C16.4001 18.3857 16.7359 18.0498 17.15 18.0498C17.5641 18.0498 17.8999 18.3857 17.9 18.7998C17.9 19.3475 17.901 19.8037 17.8707 20.1748C17.8397 20.5545 17.7719 20.9109 17.6002 21.2481C17.3365 21.7655 16.9155 22.1865 16.398 22.4502C16.0609 22.6219 15.7045 22.6897 15.3248 22.7207C14.9537 22.751 14.4975 22.75 13.9498 22.75H6.35019C5.80252 22.75 5.34632 22.751 4.97519 22.7207C4.59546 22.6897 4.23909 22.6219 3.90195 22.4502C3.38451 22.1865 2.96345 21.7655 2.6998 21.2481C2.52809 20.9109 2.46033 20.5545 2.42929 20.1748C2.39897 19.8037 2.4 19.3475 2.4 18.7998V5.2002C2.4 4.65253 2.39897 4.19633 2.42929 3.8252C2.46033 3.44547 2.52809 3.0891 2.6998 2.75196C2.96345 2.23451 3.38451 1.81346 3.90195 1.54981C4.23909 1.3781 4.59546 1.31033 4.97519 1.2793C5.34632 1.24898 5.80252 1.25 6.35019 1.25H13.9498ZM10.15 16.25C10.8404 16.25 11.4 16.8097 11.4 17.5C11.4 18.1904 10.8404 18.75 10.15 18.75C9.45965 18.75 8.9 18.1904 8.9 17.5C8.9 16.8097 9.45965 16.25 10.15 16.25Z" fill="currentColor"/>
+<path d="M11.9999 9.7002C12.4417 9.7002 12.7997 10.0582 12.7997 10.5C12.7997 11.963 12.811 12.491 12.9511 12.8916C13.2224 13.6671 13.8328 14.2774 14.6083 14.5488C15.0089 14.6889 15.5369 14.7002 16.9999 14.7002C17.4417 14.7002 17.7997 15.0582 17.7997 15.5C17.7997 15.9418 17.4417 16.2998 16.9999 16.2998C15.6706 16.2998 14.8018 16.3111 14.08 16.0586C12.8449 15.6264 11.8735 14.655 11.4413 13.4199C11.1888 12.698 11.2001 11.8293 11.2001 10.5C11.2001 10.0582 11.5581 9.70028 11.9999 9.7002ZM19.5643 5.50293C20.1817 5.51217 20.5583 5.54948 20.8661 5.69727C21.2756 5.89401 21.6059 6.22434 21.8026 6.63379C21.9997 7.04418 21.9999 7.57635 21.9999 8.63965V10.3604L21.997 11.0645C21.9877 11.6819 21.9504 12.0584 21.8026 12.3662L21.7225 12.5156C21.5219 12.8559 21.2244 13.1306 20.8661 13.3027L20.705 13.3682C20.4256 13.4624 20.0786 13.4894 19.5643 13.4971L18.8602 13.5H17.1395C16.0763 13.5 15.5441 13.4998 15.1337 13.3027C14.7754 13.1305 14.4778 12.8559 14.2772 12.5156L14.1972 12.3662C14.0494 12.0584 14.0121 11.6819 14.0028 11.0645L13.9999 10.3604V8.63965C13.9999 7.57637 14.0001 7.04418 14.1972 6.63379C14.3939 6.22434 14.7242 5.89402 15.1337 5.69727C15.5441 5.5002 16.0763 5.5 17.1395 5.5H18.8602L19.5643 5.50293ZM17.1395 7.09961C16.5833 7.09961 16.2572 7.10145 16.0165 7.12012C15.9014 7.12906 15.8413 7.13909 15.8173 7.14453C15.743 7.18271 15.6826 7.24308 15.6444 7.31738C15.639 7.3414 15.629 7.40146 15.62 7.5166C15.6013 7.75737 15.5995 8.08341 15.5995 8.63965V10.3604C15.5995 10.9166 15.6013 11.2426 15.62 11.4834C15.6287 11.5957 15.6389 11.6555 15.6444 11.6807C15.6825 11.7555 15.7426 11.816 15.8173 11.8545C15.8411 11.8599 15.901 11.8709 16.0165 11.8799C16.2572 11.8986 16.5833 11.9004 17.1395 11.9004H18.8602C19.4164 11.9004 19.7425 11.8985 19.9833 11.8799C20.0972 11.871 20.157 11.86 20.1815 11.8545C20.2564 11.8161 20.3162 11.7556 20.3544 11.6807C20.3599 11.6556 20.371 11.596 20.3798 11.4834C20.3984 11.2426 20.4003 10.9166 20.4003 10.3604V8.63965C20.4003 8.08341 20.3984 7.75737 20.3798 7.5166C20.3708 7.4011 20.3598 7.34125 20.3544 7.31738C20.3161 7.243 20.2561 7.18262 20.1815 7.14453C20.1569 7.13902 20.0969 7.12894 19.9833 7.12012C19.7425 7.10145 19.4164 7.09961 18.8602 7.09961H17.1395Z" fill="currentColor"/>
+</svg>
+                    </div>
+                    <span>Aplicativos</span>
+                </a>
+            </li>
+            </ul>
+    </div>
+</div>
+
+<script src="https://po.trade/try-demo/main.js?v=1788530835"></script>
+<link rel="stylesheet" href="https://po.trade//themes/cabinet-vite/components/tutorial_v1/index.css?v=1788530827">
+
+<div class="tutorial-v1 tutorial-v1--step1 hidden">
+    <div class="tutorial-v1__overlay"></div>
+    <div class="tutorial-v1__container">
+        <div class="tutorial-v1__header">
+            <div class="tutorial-v1__serving">
+                <div class="tutorial-v1__serving-start">1</div>
+                <div class="tutorial-v1__serving-text">of</div>
+                <div class="tutorial-v1__serving-end">11</div>
+            </div>
+            <div class="tutorial-v1__close-icon js-exit" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_1_close"}'>
+                <svg class="svg-icon close-icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path opacity="0.5" d="M10.3432 7.5L14.6075 3.23565C15.1308 2.71236 15.1308 1.86392 14.6075 1.3402L13.6598 0.392472C13.1365 -0.130824 12.2881 -0.130824 11.7643 0.392472L7.5 4.65682L3.23565 0.392472C2.71236 -0.130824 1.86392 -0.130824 1.3402 0.392472L0.392472 1.3402C-0.130824 1.86349 -0.130824 2.71193 0.392472 3.23565L4.65682 7.5L0.392472 11.7643C-0.130824 12.2876 -0.130824 13.1361 0.392472 13.6598L1.3402 14.6075C1.86349 15.1308 2.71236 15.1308 3.23565 14.6075L7.5 10.3432L11.7643 14.6075C12.2876 15.1308 13.1365 15.1308 13.6598 14.6075L14.6075 13.6598C15.1308 13.1365 15.1308 12.2881 14.6075 11.7643L10.3432 7.5Z"/>
+</svg>
+            </div>
+        </div>
+        <div class="tutorial-v1__body">
+            <div class="tutorial-v1__step step1">
+    <div class="step1__img">
+        <img
+            srcset="/themes/cabinet/images/tutorial/v1/img.png 1x, /themes/cabinet/images/tutorial/v1/img@2x.png 2x"
+            src="/themes/cabinet/images/tutorial/v1/img.png"
+            alt=""
+        >
+    </div>
+        <div class="step1__broker-title">
+        PO TRADE    </div>
+        <div class="step1__title">
+        Seja bemvindo (a) à plataforma de negociação inovadora.    </div>
+    <div class="step1__text">
+        Neste breve guia, vamos orientar você sobre o processo de negociação na plataforma.        <strong>Leva apenas alguns minutos.</strong>
+    </div>
+        <div class="step1__btn">
+        <a class="btn btn-green-light js-change-slide" data-slide="2" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_1_start"}'>
+    Começar</a>
+    </div>
+    </div>
+<div class="tutorial-v1__step step2 hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-2-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-2-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-2-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Negociação na plataforma        </div>
+        <div class="notify__text">
+            O gráfico mostra como o preço de um ativo está mudando. Você precisa fazer uma previsão: <b>como a direção do preço mudará em um determinado período de tempo</b> e clicar em <span style="color: #32ac41">comprar</span> ou <span style="color: #f13227">vender </span> de acordo com sua previsão.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-primary btn-block js-change-slide" data-slide="3" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_2_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step3 hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-3-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-3-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-3-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Account Balance        </div>
+        <div class="notify__text">
+            O saldo da conta é a <strong>quantia de dinheiro</strong> que está atualmente <strong>disponível</strong> na sua conta na plataforma de negociação.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-default js-change-slide" data-slide="2" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_3_back"}'>
+    Voltar</a>
+<a class="btn btn-primary js-change-slide" data-slide="4" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_3_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step4 hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-4-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-4-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-4-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Menu de seleção de ativos        </div>
+        <div class="notify__text">
+            Clique no menu para <strong>selecionar o ativo da lista de ativos disponíveis</strong> no qual você deseja abrir uma negociação.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-default js-change-slide" data-slide="3" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_4_back"}'>
+    Voltar</a>
+<a class="btn btn-primary js-change-slide" data-slide="5" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_4_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step5 hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-5-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-5-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-5-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Ativos        </div>
+        <div class="notify__text">
+            Um <b>grande número de ativos</b> em várias categorias está disponível para negociação.        </div>
+        <div class="notify__text">
+            Fique atento à <b>% de pagamento</b> - quanto maior ela for, maior será o seu lucro!        </div>
+                <div class="notify__btn">
+            <a class="btn btn-default js-change-slide" data-slide="4" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_5_back"}'>
+    Voltar</a>
+<a class="btn btn-primary js-change-slide" data-slide="6" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_5_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step6 hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-6-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-6-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-6-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Escolha um horário de negociação        </div>
+        <div class="notify__text">
+            Defina o horário de fechamento de sua negociação.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-default js-change-slide" data-slide="5" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_6_back"}'>
+    Voltar</a>
+<a class="btn btn-primary js-change-slide" data-slide="7" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_6_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step7 hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-7-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-7-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-7-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Definir o valor da negociação        </div>
+        <div class="notify__text">
+            Defina o valor do investimento, esse valor será deduzido do saldo de sua conta de negociação para abrir uma negociação.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-default js-change-slide" data-slide="6" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_7_back"}'>
+    Voltar</a>
+<a class="btn btn-primary js-change-slide" data-slide="8" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_7_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step8 hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-8-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-8-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-8-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Pagamentos        </div>
+        <div class="notify__text">
+            O <b>lucro que você recebe</b> por uma <b>$100</b> negociação com um <b>pagamento de $92</b> se a previsão estiver correta.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-default js-change-slide" data-slide="7" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_8_back"}'>
+    Voltar</a>
+<a class="btn btn-primary js-change-slide" data-slide="9" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_8_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step9 hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-9-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-9-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-9-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Abrir uma negociação        </div>
+        <div class="notify__text">
+            O gráfico exibe a <b>alteração no preço</b> de um ativo em <b>tempo rea</b>l.        </div>
+        <div class="notify__text">
+            Clique no botão <b>Comprar</b> ou <b>Vender</b> se você achar que o preço do ativo <b>subirá ou descerá</b>.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-call js-change-slide" data-slide="10_high" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_9_up"}'>
+    <span class="no-animate switch-state-block">
+        <span class="switch-state-block__in">
+            <span class="switch-state-block__item">
+                <span class="payout">
+                    <span class="payout__text payout__text-lh">comprar</span>
+                </span>
+            </span>
+        </span>
+    </span>
+</a>
+<a class="btn btn-put js-change-slide" data-slide="10_low" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_9_down"}'>
+    <span class="no-animate switch-state-block">
+        <span class="switch-state-block__in">
+            <span class="switch-state-block__item">
+                <span class="payout">
+                    <span class="payout__text payout__text-lh">vender</span>
+                </span>
+            </span>
+        </span>
+    </span>
+</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step10_high hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-10-high-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-10-high-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-10-high-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Negociação criada        </div>
+        <div class="notify__text">
+            Agora você precisa <b>esperar o resultado</b> da sua previsão.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-default js-change-slide" data-slide="9" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_10_up_back"}'>
+    Voltar</a>
+<a class="btn btn-primary js-change-slide" data-slide="11_high" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_10_up_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step10_low hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-10-low-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-10-low-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-10-low-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Negociação criada        </div>
+        <div class="notify__text">
+            Agora você precisa <b>esperar o resultado</b> da sua previsão.        </div>
+                <div class="notify__btn">
+            <a class="btn btn-default js-change-slide" data-slide="9" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_10_down_back"}'>
+    Voltar</a>
+<a class="btn btn-primary js-change-slide" data-slide="11_low" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_10_down_continue"}'>
+    Continuar</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step11_high hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-11-high-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-11-high-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-11-high-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Negociação fechada        </div>
+        <div class="notify__text">
+            Parabéns, sua ordem de negociação é lucrativa!        </div>
+        <div class="notify__text">
+            Em apenas 1 minuto, investindo $100, você ganhou $92!        </div>
+                <div class="notify__btn">
+            <a class="btn btn-success btn-block js-exit" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_11_up_start_trading"}'>
+    Começar a operar</a>
+<a class="btn-again js-change-slide" data-slide="1" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_11_up_restart"}'>
+    Exibir novamente o guia de introdução</a>
+        </div>
+            </div>
+</div>
+<div class="tutorial-v1__step step11_low hidden">
+    <img
+        srcset="/themes/cabinet/images/tutorial/v1/onboard-11-low-en.jpg?v=1725966119 1x, /themes/cabinet/images/tutorial/v1/onboard-11-low-en@2x.jpg?v=1725966119 2x"
+        src="/themes/cabinet/images/tutorial/v1/onboard-11-low-en.jpg?v=1725966119"
+        alt=""
+    >    <div class="notify">
+        <div class="notify__title">
+            Negociação fechada        </div>
+        <div class="notify__text">
+            Parabéns, sua ordem de negociação é lucrativa!        </div>
+        <div class="notify__text">
+            Em apenas 1 minuto, investindo $100, você ganhou $92!        </div>
+                <div class="notify__btn">
+            <a class="btn btn-success btn-block js-exit" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_11_down_start_trading"}'>
+    Começar a operar</a>
+<a class="btn-again js-change-slide" data-slide="1" data-layout='{"event":"gtm_events","ga4_event_name":"onboarding_tutorial__stage_11_down_restart"}'>
+    Exibir novamente o guia de introdução</a>
+        </div>
+            </div>
+</div>
+        </div>
+            </div>
+</div>
+</body>
+</html>
